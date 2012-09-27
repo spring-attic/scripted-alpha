@@ -13,7 +13,7 @@ What are the key features?
 - Syntax highlighting for JavaScript, HTML and CSS.
 - Errors and warnings: 
 	- JSLint is integrated to provide error/warning markers on JavaScript code.
-	- AMD and commonjs module resolution: these is basic resolution where unresolved references will be marked as errors.
+	- AMD and commonjs module resolution: there is basic resolution where unresolved references will be marked as errors.
 - Content assist:
 	- Basic content assist for HTML, CSS
 	- For JavaScript, content assist is driven by a type inferencing engine which is aware of AMD/Commonjs module 
@@ -45,19 +45,21 @@ or grab a zip of the latest from here:
 If you have the zip, just unzip it then add the bin folder to your path:
 
 Mac/Linux:
+
 	export PATH=<pathToUnzippedScriptedOrClone>/bin:$PATH
 
 Win:
+
 	set PATH=<pathToUnzippedScriptedOrClone>\bin;%PATH%
 
 then launch it:
 
 	scr myfile.js
 
-(you can use 'scripted' to launch it if you'd prefer to type more characters...)
+(you can use <tt>scripted</tt> to launch it if you'd prefer to type more characters...)
 
-When working with Scripted, think about it like using vi/emacs. From wherever you are in your terminal window you can
-just open up a text file and start editing it by launching scripted.
+When working with Scripted, think about it like using <tt>vi</tt>/<tt>emacs</tt>. From wherever you are in your terminal window you can
+can launch scripted and start editing a file.
 
 Launching scripted will cause the node server to start in the background.
 
@@ -78,14 +80,14 @@ Here are some of the more vital key bindings to use once the editor is open:
 
 On the left hand side is a traditional navigator for opening different files. Above the editor is a breadcrumb, hover over a component to see other files in that directory.
 
-The editor does support a degree of customization, see the section in the [User Guide](//TODO LINK//.
+The editor does support a degree of customization, see the section in the [User Guide](//TODO LINK//).
 
 # Further reading
 
 - [FAQ](https://github.com/SpringSource/scripted/wiki/FAQ)
 - [Architecture](https://github.com/SpringSource/scripted/wiki/Architecture)
 
-# What is the focus for Scripted during the next few weeks/months?
+# What's next for Scripted?
 
 //TODO DETAILS//
 sidepanel
@@ -100,13 +102,11 @@ content assist
 
 # Can I contribute?
 
-Sure! Simply clone the repository:
+Sure! Just press *Fork* at the top of this github page and get coding. Before we accept pull requests we just need you to sign a simple contributor's
+agreement (similar to other SpringSource projects) - which you can find [here](https://support.springsource.com/spring_committer_signup). Signing the contributor's agreement does not grant anyone commit rights to the main repository, but it does mean that we can accept your contributions, and you will get an author credit if we do. Active contributors might be asked to join the core team, and given the ability to merge pull requests.
+Pull requests should ideally reference a JIRA ticket in the [issuetracker](https://issuetracker.springsource.com/browse/SCRIPTED) that details what the request is addressing.
 
-	git clone https://github.com/SpringSource/scripted
+The codebase is entirely JavaScript/HTML/CSS and the team uses Scripted to develop Scripted.
 
-and you can start.  The codebase is entirely JavaScript/HTML/CSS and the team uses Scripted to develop Scripted.
-
-There is a [public issuetracker](https://issuetracker.springsource.com/browse/SCRIPTED). Some of the simpler issues that 
-might provide an easy way to get started with the codebase are tagged with the label help-wanted, see [here](https://issuetracker.springsource.com/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+SCRIPTED+AND+labels+%3D+help-wanted+AND+status+in+%28Open%2C+%22In+Progress%22%2C+Reopened%29+ORDER+BY+key+ASC%2C+priority+DESC)
-
-
+If you are keen to contribute but aren't sure what to work on, take a look at the [public issuetracker](https://issuetracker.springsource.com/browse/SCRIPTED) for inspiration.
+The codebase is very new in places and isn't that tricky to get to grips with. Some of the simpler issues that might provide an easy way to get started with the codebase are tagged with the label help-wanted, see [here](https://issuetracker.springsource.com/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+SCRIPTED+AND+labels+%3D+help-wanted+AND+status+in+%28Open%2C+%22In+Progress%22%2C+Reopened%29+ORDER+BY+key+ASC%2C+priority+DESC).
