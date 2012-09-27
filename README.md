@@ -4,7 +4,7 @@
 
 Scripted is a fast and lightweight code editor with an initial focus on JavaScript editing.  Scripted is a browser based editor
 and the editor itself is served from a locally running node server instance.  The editor is actually the Eclipse Orion editor with
-few additional bells and whistles. Anyone familiar with editing in Eclipse will immediately know many of the key bindings
+a few additional bells and whistles. Anyone familiar with editing in Eclipse will immediately know many of the key bindings
 the Scripted editor supports.
 
 What are the key features?
@@ -12,16 +12,16 @@ What are the key features?
 - Fast startup, lightweight.
 - Syntax highlighting for JavaScript, HTML and CSS.
 - Errors and warnings: 
--- JSLint is integrated to provide error/warning markers on JavaScript code.
--- AMD and commonjs module resolution: these is basic resolution where unresolved references will be marked as errors.
+	- JSLint is integrated to provide error/warning markers on JavaScript code.
+	- AMD and commonjs module resolution: these is basic resolution where unresolved references will be marked as errors.
 - Content assist:
--- Basic content assist for HTML, CSS
--- For JavaScript, content assist is driven by a type inferencing engine which is aware of AMD/Commonjs module 
+	- Basic content assist for HTML, CSS
+	- For JavaScript, content assist is driven by a type inferencing engine which is aware of AMD/Commonjs module 
 dependencies and uses JSDoc comments to help it understand the code.
 - Hovers: hovering over a JavaScript identifier will bring up the inferred type signature.
 - Navigation: 
--- press F8 on an identifier (that the inferencer has recognized) and the editor will navigate to the declaration.
--- this also works on module identifiers (e.g. in <tt>define()</tt> clauses)
+	- press F8 on an identifier (that the inferencer has recognized) and the editor will navigate to the declaration.
+	- this also works on module identifiers (e.g. in <tt>define()</tt> clauses)
 - Formatting: JSbeautify is integrated
 - Sidepanel: alongside the main editor a sidepanel can be opened - currently this can be used to host a second editor.
 - Key binding to external command: Key bindings in the editor can invoke external commands (less, mvn, etc)
