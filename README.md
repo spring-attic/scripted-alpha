@@ -1,6 +1,6 @@
-Welcome to the Scripted project.
+# Welcome to Scripted
 
-# What is Scripted?
+## What is Scripted?
 
 Scripted is a fast and lightweight code editor with an initial focus on JavaScript editing.  Scripted is a web based editor
 and the editor is served from a locally running node server instance.  The editor is actually the Eclipse Orion editor with
