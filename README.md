@@ -21,7 +21,7 @@ dependencies and uses JSDoc comments to help it understand the code.
 - Hovers: hovering over a JavaScript identifier will bring up the inferred type signature.
 - Navigation: 
 	- press F8 on an identifier (that the inferencer has recognized) and the editor will navigate to the declaration.
-	- this also works on module identifiers (e.g. in <tt>define()</tt> clauses)
+	- this also works on module identifiers (e.g. in +define()+ clauses)
 - Formatting: JSbeautify is integrated
 - Sidepanel: alongside the main editor a sidepanel can be opened - currently this can be used to host a second editor.
 - Key binding to external command: Key bindings in the editor can invoke external commands (less, mvn, etc)
@@ -56,27 +56,27 @@ then launch it:
 
 	scr myfile.js
 
-(you can use <tt>scripted</tt> to launch it if you'd prefer to type more characters...)
+(you can use +scripted+ to launch it if you'd prefer to type more characters...)
 
-When working with Scripted, think about it like using <tt>vi</tt>/<tt>emacs</tt>. From wherever you are in your terminal window you can
+When working with Scripted, think about it like using +vi+/<tt>emacs</tt>. From wherever you are in your terminal window you can
 can launch scripted and start editing a file.
 
 Launching scripted will cause the node server to start in the background.
 
 Here are some of the more vital key bindings to use once the editor is open:
 
-- <tt>Cmd/Ctrl+h</tt> - open help to show all key bindings (or press '?' in the top right)
-- <tt>Cmd/Ctrl+s</tt> - save!
-- <tt>Cmd/Ctrl+Shift+E</tt> - open/close subeditor
-- <tt>Cmd/Ctrl+Shift+F</tt> - open Find File dialog. Inside the dialog, you can search for files in the project by regular expression and:
--- <tt>Click</tt> a result to open it in main editor
--- <tt>Shift+Click</tt> a result to open it in sub-editor
--- <tt>Cmd/Ctrl+Click</tt> a result to open it in a new tab
-- <tt>Cmd/Ctrl+F</tt> - in file search
-- <tt>Ctrl+Space</tt> - content assist
-- <tt>F8</tt> - navigate to declaration
-- <tt>Shift+F8</tt> - open declaration in subeditor
-- <tt>Cmd/Ctrl+F8</tt> - navigate to declaration in new tab
+- `Cmd/Ctrl+h` - open help to show all key bindings (or press '?' in the top right)
+- `Cmd/Ctrl+s` - save!
+- `Cmd/Ctrl+Shift+E` - open/close subeditor
+- `Cmd/Ctrl+Shift+F` - open Find File dialog. Inside the dialog, you can search for files in the project by regular expression and:
+-- `Click` a result to open it in main editor
+-- `Shift+Click` a result to open it in sub-editor
+-- `Cmd/Ctrl+Click` a result to open it in a new tab
+- `Cmd/Ctrl+F` - in file search
+- `Ctrl+Space` - content assist
+- `F8` - navigate to declaration
+- `Shift+F8` - open declaration in subeditor
+- `Cmd/Ctrl+F8` - navigate to declaration in new tab
 
 On the left hand side is a traditional navigator for opening different files. Above the editor is a breadcrumb, hover over a component to see other files in that directory.
 
