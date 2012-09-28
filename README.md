@@ -34,29 +34,29 @@ Many of these are covered in this introductory screencast:
 
 The only pre-req for trying it out is that you have node installed. Grab node from here: [http://nodejs.org/](http://nodejs.org)
 
-With node installed you can either clone the repository:
+To get the code you can either clone the repository:
 
 	git clone https://github.com/SpringSource/scripted
 
-or grab a zip of the latest from here:
+or grab a zip of the latest from here (and unzip it):
 
 	https://github.com/SpringSource/scripted/zipball/master
 
-If you have the zip, just unzip it then add the bin folder to your path:
+Then add the bin folder to your path:
 
 Mac/Linux:
 
-	export PATH=<pathToUnzippedScriptedOrClone>/bin:$PATH
+	export PATH=<pathToUnzipLocationOrClone>/bin:$PATH
 
 Win:
 
-	set PATH=<pathToUnzippedScriptedOrClone>\bin;%PATH%
+	set PATH=<pathToUnzipLocationOrClone>\bin;%PATH%
 
 then launch it:
 
 	scr myfile.js
 
-(you can use +scripted+ to launch it if you'd prefer to type more characters...)
+(you can use `scripted` to launch it if you'd prefer to type more characters...)
 
 When working with Scripted, think about it like using +vi+/<tt>emacs</tt>. From wherever you are in your terminal window you can
 can launch scripted and start editing a file.
@@ -72,7 +72,8 @@ Here are some of the more vital key bindings to use once the editor is open:
 -- `Click` a result to open it in main editor
 -- `Shift+Click` a result to open it in sub-editor
 -- `Cmd/Ctrl+Click` a result to open it in a new tab
-- `Cmd/Ctrl+F` - in file search
+- `Cmd/Ctrl+Shift+o` - open outline view. A dialog will present the functions and you can quickly navigate to them
+- `Cmd/Ctrl+F` - in-file search
 - `Ctrl+Space` - content assist
 - `F8` - navigate to declaration
 - `Shift+F8` - open declaration in subeditor
