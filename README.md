@@ -32,7 +32,7 @@ Many of these are covered in this introductory screencast:
 
 # How do I try it out?
 
-The only pre-req for trying it out is that you have node installed. Grab node from here: [[http://nodejs.org/]]
+The only pre-req for trying it out is that you have node installed. Grab node from here: [http://nodejs.org/](http://nodejs.org)
 
 With node installed you can either clone the repository:
 
