@@ -118,7 +118,9 @@ Sure! Just press *Fork* at the top of this github page and get coding. Before we
 agreement (similar to other SpringSource projects) - which you can find [here](https://support.springsource.com/spring_committer_signup). Signing the contributor's agreement does not grant anyone commit rights to the main repository, but it does mean that we can accept your contributions, and you will get an author credit if we do. Active contributors might be asked to join the core team, and given the ability to merge pull requests.
 Pull requests should ideally reference a JIRA ticket in the [issuetracker](https://issuetracker.springsource.com/browse/SCRIPTED) that details what the request is addressing.
 
-The codebase is entirely JavaScript/HTML/CSS and the team uses Scripted to develop Scripted.
+The codebase is entirely JavaScript/HTML/CSS.
 
 If you are keen to contribute but aren't sure what to work on, take a look at the [public issuetracker](https://issuetracker.springsource.com/browse/SCRIPTED) for inspiration.
 The codebase is very new in places and isn't that tricky to get to grips with. Some of the simpler issues that might provide an easy way to get started with the codebase are tagged with the label help-wanted, see [here](https://issuetracker.springsource.com/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+SCRIPTED+AND+labels+%3D+help-wanted+AND+status+in+%28Open%2C+%22In+Progress%22%2C+Reopened%29+ORDER+BY+key+ASC%2C+priority+DESC).
+
+If you don't feel like coding but still want to contribute, please join the discussion on the issuetracker and scripted-dev group.
