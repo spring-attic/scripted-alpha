@@ -13,15 +13,15 @@ What are the key features?
 - Syntax highlighting for JavaScript, HTML and CSS.
 - Errors and warnings: 
 	- JSLint is integrated to provide error/warning markers on JavaScript code.
-	- AMD and commonjs module resolution: there is basic resolution where unresolved references will be marked as errors.
+	- AMD and CommonJS module resolution: there is basic resolution where unresolved references will be marked as errors.
 - Content assist:
 	- Basic content assist for HTML, CSS
-	- For JavaScript, content assist is driven by a type inferencing engine which is aware of AMD/Commonjs module 
-dependencies and uses JSDoc comments to help it understand the code.
+	- For JavaScript, content assist is driven by a type inferencing engine which is aware of AMD/CommonJS module 
+dependencies and also uses JSDoc comments to help it understand the code.
 - Hovers: hovering over a JavaScript identifier will bring up the inferred type signature.
 - Navigation: 
 	- press F8 on an identifier (that the inferencer has recognized) and the editor will navigate to the declaration.
-	- this also works on module identifiers (e.g. in +define()+ clauses)
+	- this also works on module identifiers (e.g. in `define()` clauses)
 - Formatting: JSbeautify is integrated
 - Sidepanel: alongside the main editor a sidepanel can be opened - currently this can be used to host a second editor.
 - Key binding to external command: Key bindings in the editor can invoke external commands (less, mvn, etc)
@@ -58,7 +58,7 @@ then launch it:
 
 (you can use `scripted` to launch it if you'd prefer to type more characters...)
 
-When working with Scripted, think about it like using +vi+/<tt>emacs</tt>. From wherever you are in your terminal window you can
+When working with Scripted, think about it like using `vi`/`emacs`. From wherever you are in your terminal window you can
 can launch scripted and start editing a file.
 
 Launching scripted will cause the node server to start in the background.
@@ -98,7 +98,7 @@ content assist
 
 # Where can I ask questions, provide feedback or raise issues?
 
-- The [google group](https://groups.google.com/forum/#!forum/scripted-editor) is open for questions and discussion
+- The [google group](https://groups.google.com/forum/#!forum/scripted-dev) is open for questions and discussion
 - The [issuetracker](https://issuetracker.springsource.com/browse/scripted) to raise issues or take a look and vote on existing issues.
 
 # Can I contribute?
