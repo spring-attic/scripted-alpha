@@ -81,25 +81,36 @@ Here are some of the more vital key bindings to use once the editor is open:
 
 On the left hand side is a traditional navigator for opening different files. Above the editor is a breadcrumb, hover over a component to see other files in that directory.
 
-The editor does support a degree of customization, see the section in the [User Guide](//TODO LINK//).
+The editor does support a degree of customization, see the section on the [Features](https://github.com/SpringSource/scripted/wiki/Features) page.
+
+# Current status
+
+As of Oct 2012 the project is at version 0.2. There is a long way to go but the team have been using Scripted to develop Scripted for a while now.
 
 # Further reading
 
+- [Features](https://github.com/SpringSource/scripted/wiki/Features)
 - [FAQ](https://github.com/SpringSource/scripted/wiki/FAQ)
+- [Troubleshooting](https://github.com/SpringSource/scripted/wiki/FAQ#wiki-Troubleshooting)
 - [Architecture](https://github.com/SpringSource/scripted/wiki/Architecture)
-
-# What's next for Scripted?
-
-//TODO DETAILS//
-sidepanel
-debugging
-content assist
-
 
 # Where can I ask questions, provide feedback or raise issues?
 
 - The [google group](https://groups.google.com/forum/#!forum/scripted-dev) is open for questions and discussion
 - The [issuetracker](https://issuetracker.springsource.com/browse/scripted) to raise issues or take a look and vote on existing issues.
+
+# What's next for Scripted?
+
+- Even smarter inferencing, leading to better content assist and easier navigation.
+- More panes for the side panel. Currently there is just an editor pane but we intend to include search results panes,
+documentation, git information panes, perhaps code preview and simulated code execution panes. The intention will be
+for Scripted to try and automatically manage these where possible, so all the content on screen is kept relevant
+to the task at hand.
+- Simple plugin system. 
+- Debugging. Exploring integration with tools like Chrome Dev Tools and node inspector.
+
+If you have more ideas for what you'd like to see, let us know via [Jira](https://issuetracker.springsource.com/browse/scripted) or 
+our [scripted-dev](https://groups.google.com/forum/#!forum/scripted-dev) group.
 
 # Can I contribute?
 
