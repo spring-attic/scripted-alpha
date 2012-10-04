@@ -23,8 +23,8 @@ html, body{
 body{
 	background-color:#fff;
 	overflow:hidden;
-	font: 11px;
-	font-family: "Monaco","Ubuntu","Myriad","Helvetica",Tahoma,Arial,clean,sans-serif;
+	font-size: 10px;
+	font-family: "Monaco","Ubuntu","Myriad","Helvetica","Tahoma","Arial","clean","sans-serif";
 }
 
 header{
