@@ -42,6 +42,10 @@ or grab a zip of the latest from here (and unzip it):
 
 	https://github.com/SpringSource/scripted/zipball/master
 
+Make sure the files in the bin folder are executable on mac/linux:
+
+	chmod 755 bin/*
+
 Then add the bin folder to your path:
 
 Mac/Linux:
