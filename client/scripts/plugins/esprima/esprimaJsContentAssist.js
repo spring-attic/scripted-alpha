@@ -2256,7 +2256,17 @@ define("plugins/esprima/esprimaJsContentAssist", ["plugins/esprima/esprimaVisito
 					// cut visit short
 					throw "done";
 				}
-				if (node.range[0] > offset) {
+				// FIXADE esprima bug...some call expressions have incorrect slocs.
+				// This is fixed in trunk of esprima.
+				// after next upgrade of esprima if the following has correct slocs, then 
+				// can remove the second part of the && 
+				//    mUsers.getUser().name
+				if (node.range[0] > offset &&
+						(node.type === "ExpressionStatement" || 
+						 node.type === "ReturnStatement" ||
+						 node.type === "ifStatement" ||
+						 node.type === "WhileStatement" ||
+						 node.type === "Program")) {
 					// not at a valid hover location
 					throw "no hover";
 				}
