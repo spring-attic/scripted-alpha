@@ -34,15 +34,19 @@ Many of these are covered in this introductory screencast:
 
 The only pre-req for trying it out is that you have node installed. Grab node from here: [http://nodejs.org/](http://nodejs.org)
 
-To get the code you can either clone the repository:
+Then you can grab the most recent packaged release from here:
+
+	[Version 0.2.0](http://dist.springsource.org/release/SCRIPTED/scripted_v0.2.0.zip)
+
+OR you can live on the bleeding edge by either cloning the repository:
 
 	git clone https://github.com/SpringSource/scripted
 
-or grab a zip of the latest from here (and unzip it):
+or grabbing the latest repo contents as a zip:
 
 	https://github.com/SpringSource/scripted/zipball/master
 
-Make sure the files in the bin folder are executable on mac/linux:
+Unpack whatever you have and then make sure the files in the bin folder are executable on mac/linux:
 
 	chmod 755 bin/*
 
