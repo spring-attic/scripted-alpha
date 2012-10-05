@@ -36,7 +36,7 @@ The only pre-req for trying it out is that you have node installed. Grab node fr
 
 Then you can grab the most recent packaged release from here:
 
-	[Version 0.2.0](http://dist.springsource.org/release/SCRIPTED/scripted_v0.2.0.zip)
+[Version 0.2.0](http://dist.springsource.org/release/SCRIPTED/scripted_v0.2.0.zip)
 
 OR you can live on the bleeding edge by either cloning the repository:
 
