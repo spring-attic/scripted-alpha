@@ -28,6 +28,9 @@ dependencies and also uses JSDoc comments to help it understand the code.
 
 Many of these are covered in this introductory screencast:
 
+<embed src="http://dist.springsource.org/release/SCRIPTED/Scripted2.mov" width=640 height=400 autoplay=false controller=true loop=false pluginspage=http://www.apple.com/quicktime/"/>
+
+<embed src="http://dist.springsource.org/release/SCRIPTED/posterScripted2.png" width=511 height=319 autoplay=true controller=false loop=false href="" target=myself pluginspage="http://www.apple.com/quicktime"/>
 
 # How do I try it out?
 
