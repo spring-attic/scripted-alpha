@@ -28,7 +28,6 @@ dependencies and also uses JSDoc comments to help it understand the code.
 
 Many of these are covered in this introductory screencast:
 
-//TODO VIDEO//
 
 # How do I try it out?
 
