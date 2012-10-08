@@ -27,9 +27,7 @@ dependencies and also uses JSDoc comments to help it understand the code.
 - Key binding to external command: Key bindings in the editor can invoke external commands (less, mvn, etc)
 
 Many of these are covered in this introductory screencast:
-<center>
-<a href="http://dist.springsource.org/release/SCRIPTED/Scripted2.mov"><img src="http://dist.springsource.org/release/SCRIPTED/posterScripted2.png"/></a>
-</center>
+<a href="http://dist.springsource.org/release/SCRIPTED/Scripted2.mov"><img align="center" src="http://dist.springsource.org/release/SCRIPTED/posterScripted2.png" width="300" height="200"/></a>
 
 # How do I try it out?
 
