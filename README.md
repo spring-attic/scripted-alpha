@@ -26,8 +26,8 @@ dependencies and also uses JSDoc comments to help it understand the code.
 - Sidepanel: alongside the main editor a sidepanel can be opened - currently this can be used to host a second editor.
 - Key binding to external command: Key bindings in the editor can invoke external commands (less, mvn, etc)
 
-Many of these are covered in this introductory screencast:
-<a href="http://dist.springsource.org/release/SCRIPTED/Scripted2.mov"><img align="center" src="http://dist.springsource.org/release/SCRIPTED/posterScripted2.png" width="300" height="200"/></a>
+Many of these are covered in this introductory screencast:<br>
+<a href="http://dist.springsource.org/release/SCRIPTED/Scripted2.mov"><img align="center" src="http://dist.springsource.org/release/SCRIPTED/posterScripted2.png" width="428" height="263"/></a>
 
 # How do I try it out?
 
