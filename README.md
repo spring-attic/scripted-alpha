@@ -2,10 +2,9 @@
 
 ## What is Scripted?
 
-Scripted is a fast and lightweight code editor with an initial focus on JavaScript editing.  Scripted is a browser based editor
-and the editor itself is served from a locally running node server instance.  The editor is actually the Eclipse Orion editor with
-a few additional bells and whistles. Anyone familiar with editing in Eclipse will immediately know many of the key bindings
-the Scripted editor supports.
+Scripted is a fast and lightweight code editor with an initial focus on JavaScript editing.
+Scripted is a browser based editor and the editor itself is served from a locally running Node.js
+server instance.  
 
 What are the key features?
 
@@ -26,12 +25,16 @@ dependencies and also uses JSDoc comments to help it understand the code.
 - Sidepanel: alongside the main editor a sidepanel can be opened - currently this can be used to host a second editor.
 - Key binding to external command: Key bindings in the editor can invoke external commands (less, mvn, etc)
 
+The editor is actually the Eclipse Orion editor with a few additional bells and whistles.
+Anyone familiar with editing in Eclipse will immediately know many of the key bindings
+the Scripted editor supports.
+
 Many of these are covered in this introductory screencast:<br>
 <a href="http://dist.springsource.org/release/SCRIPTED/Scripted2.mov"><img align="center" src="http://dist.springsource.org/release/SCRIPTED/posterScripted2.png" width="428" height="263"/></a>
 
 # How do I try it out?
 
-The only pre-req for trying it out is that you have node installed. Grab node from here: [http://nodejs.org/](http://nodejs.org)
+The only pre-req for trying it out is that you have Node.js installed. Grab it from here: [http://nodejs.org/](http://nodejs.org)
 
 Then you can grab the most recent packaged release from here:
 
@@ -66,9 +69,9 @@ then launch it:
 (you can use `scripted` to launch it if you'd prefer to type more characters...)
 
 When working with Scripted, think about it like using `vi`/`emacs`. From wherever you are in your terminal window you can
-can launch scripted and start editing a file.
+can launch Scripted and start editing a file.
 
-Launching scripted will cause the node server to start in the background.
+Launching scripted will cause the Node.js server to start in the background.
 
 Here are some of the more vital key bindings to use once the editor is open:
 
