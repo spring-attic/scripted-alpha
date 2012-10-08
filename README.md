@@ -28,7 +28,7 @@ dependencies and also uses JSDoc comments to help it understand the code.
 
 Many of these are covered in this introductory screencast:
 <center>
-<a href="http://dist.springsource.org/release/SCRIPTED/Scripted2.mov"><img src="http://dist.springsource.org/release/SCRIPTED/posterScripted.png"/></>
+<a href="http://dist.springsource.org/release/SCRIPTED/Scripted2.mov"><img src="http://dist.springsource.org/release/SCRIPTED/posterScripted2.png"/></a>
 </center>
 
 # How do I try it out?
