@@ -38,7 +38,8 @@ Many of these are covered in this introductory screencast:<br>
 
 # How do I try it out?
 
-The only pre-req for trying it out is that you have Node.js installed. Grab it from here: [http://nodejs.org/](http://nodejs.org)
+The only pre-req for trying it out is that you have Node.js installed. Grab it from here: [http://nodejs.org/](http://nodejs.org).
+The team has been testing with recent versions from 0.6 to 0.8.
 
 Then you can grab the most recent packaged release from here:
 
@@ -96,6 +97,8 @@ Here are some of the more vital key bindings to use once the editor is open:
 On the left hand side is a traditional navigator for opening different files. Above the editor is a breadcrumb, hover over a component to see other files in that directory.
 
 The editor does support a degree of customization, see the section on the [Features](https://github.com/SpringSource/scripted/wiki/Features) page.
+
+Scripted receives most testing in Chrome and Firefox, you may need one of those browsers in order to get the most out of it.
 
 # Current status
 
