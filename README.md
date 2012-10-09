@@ -29,7 +29,7 @@ dependencies and also uses JSDoc comments to help it understand the code.
 - Sidepanel: alongside the main editor a sidepanel can be opened - currently this can be used to host a second editor.
 - Key binding to external command: Key bindings in the editor can invoke external commands (less, mvn, etc)
 
-The editor is actually the Eclipse Orion editor with a few additional bells and whistles.
+The editor is actually the [Eclipse Orion](http://www.eclipse.org/orion/) editor with a few additional bells and whistles.
 Anyone familiar with editing in Eclipse will immediately know many of the key bindings
 the Scripted editor supports.
 
