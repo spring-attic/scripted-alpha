@@ -84,9 +84,9 @@ Here are some of the more vital key bindings to use once the editor is open:
 - `Cmd/Ctrl+s` - save!
 - `Cmd/Ctrl+Shift+E` - open/close subeditor
 - `Cmd/Ctrl+Shift+F` - open Find File dialog. Inside the dialog, you can search for files in the project by regular expression and:
--- `Click` a result to open it in main editor
--- `Shift+Click` a result to open it in sub-editor
--- `Cmd/Ctrl+Click` a result to open it in a new tab
+   - `Click` a result to open it in main editor
+   - `Shift+Click` a result to open it in sub-editor
+   - `Cmd/Ctrl+Click` a result to open it in a new tab
 - `Cmd/Ctrl+Shift+o` - open outline view. A dialog will present the functions and you can quickly navigate to them
 - `Cmd/Ctrl+F` - in-file search
 - `Ctrl+Space` - content assist
