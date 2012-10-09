@@ -6,6 +6,10 @@ Scripted is a fast and lightweight code editor with an initial focus on JavaScri
 Scripted is a browser based editor and the editor itself is served from a locally running Node.js
 server instance.  
 
+<center>
+<img src="http://dist.springsource.org/release/SCRIPTED/screenshot2.png" width="736" height="451"/>
+</center>
+
 What are the key features?
 
 - Fast startup, lightweight.
