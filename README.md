@@ -93,6 +93,7 @@ Here are some of the more vital key bindings to use once the editor is open:
 - `F8` - navigate to declaration
 - `Shift+F8` - open declaration in subeditor
 - `Cmd/Ctrl+F8` - navigate to declaration in new tab
+- `Alt+Shift+F` - format
 
 On the left hand side is a traditional navigator for opening different files. Above the editor is a breadcrumb, hover over a component to see other files in that directory.
 
