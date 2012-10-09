@@ -73,7 +73,7 @@ then launch it:
 
 (you can use `scripted` to launch it if you'd prefer to type more characters...)
 
-When working with Scripted, think about it like using `vi`/`emacs`. From wherever you are in your terminal window you can
+When working with Scripted, think about it like using `vi`/`emacs`. From wherever you are in your terminal window you 
 can launch Scripted and start editing a file.
 
 Launching scripted will cause the Node.js server to start in the background.
@@ -99,6 +99,12 @@ On the left hand side is a traditional navigator for opening different files. Ab
 The editor does support a degree of customization, see the section on the [Features](https://github.com/SpringSource/scripted/wiki/Features) page.
 
 Scripted receives most testing in Chrome and Firefox, you may need one of those browsers in order to get the most out of it.
+
+# Anything else I need to know before using it?
+
+When you open Scripted on a file, it will attempt to infer the root of your project by locating the nearest `.git`/`.project` file
+in the hierarchy. Knowing the root is important because that is the scope in which searching and dependency analysis is done. If
+you don't have one of these markers for the root, you can create an empty `.scripted` file to indicate the root.
 
 # Current status
 
