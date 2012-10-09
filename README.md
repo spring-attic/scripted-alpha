@@ -113,7 +113,7 @@ As of Oct 2012 the project is at version 0.2. There is a long way to go but the 
 
 # Where can I ask questions, provide feedback or raise issues?
 
-- The [google group](https://groups.google.com/forum/#!forum/scripted-dev) is open for questions and discussion
+- The [scripted-dev google group](https://groups.google.com/forum/#!forum/scripted-dev) is open for questions and discussion
 - The [issuetracker](https://issuetracker.springsource.com/browse/scripted) to raise issues or take a look and vote on existing issues.
 
 # What's next for Scripted?
