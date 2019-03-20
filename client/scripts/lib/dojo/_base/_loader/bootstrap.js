@@ -41,11 +41,11 @@ djConfig = {
 	//		`debugAtAllCosts`, it is strongly recommended that you enable this
 	//		flag as a last resort. `debugAtAllCosts` has no effect when loading
 	//		resources across domains. For usage information, see the
-	//		[Dojo Book](http://dojotoolkit.org/book/book-dojo/part-4-meta-dojo-making-your-dojo-code-run-faster-and-better/debugging-facilities/deb)
+	//		[Dojo Book](https://dojotoolkit.org/book/book-dojo/part-4-meta-dojo-making-your-dojo-code-run-faster-and-better/debugging-facilities/deb)
 	debugAtAllCosts: false,
 	// locale: String
 	//		The locale to assume for loading localized resources in this page,
-	//		specified according to [RFC 3066](http://www.ietf.org/rfc/rfc3066.txt).
+	//		specified according to [RFC 3066](https://www.ietf.org/rfc/rfc3066.txt).
 	//		Must be specified entirely in lowercase, e.g. `en-us` and `zh-cn`.
 	//		See the documentation for `dojo.i18n` and `dojo.requireLocalization`
 	//		for details on loading localized resources. If no locale is specified,
@@ -264,7 +264,7 @@ dojo.global = {
 	//>>excludeStart("webkitMobile", kwArgs.webkitMobile);
 	// Register with the OpenAjax hub
 	if(typeof OpenAjax != "undefined"){
-		OpenAjax.hub.registerLibrary(dojo._scopeName, "http://dojotoolkit.org", d.version.toString());
+		OpenAjax.hub.registerLibrary(dojo._scopeName, "https://dojotoolkit.org", d.version.toString());
 	}
 	//>>excludeEnd("webkitMobile");
 

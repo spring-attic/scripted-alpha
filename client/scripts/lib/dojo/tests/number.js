@@ -399,7 +399,7 @@ tests.register("tests.number",
 
 /*************************************************************************************************
  * Evan:The following test cases are referred from ICU4J 3.6 (NumberFormatTest etc.)
- * see http://icu.sourceforge.net/download/3.6.html#ICU4J
+ * see http://www.icu-project.org/download/3.6.html#ICU4J
  *************************************************************************************************/
 
 

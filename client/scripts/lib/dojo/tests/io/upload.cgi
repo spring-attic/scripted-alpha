@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# FROM: http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/273844
+# FROM: https://code.activestate.com/recipes/273844/
 
 import cgi
 import cgitb; cgitb.enable()

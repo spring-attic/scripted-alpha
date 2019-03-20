@@ -5,7 +5,7 @@
  * ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
  * CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
  * You can obtain a current copy of the Eclipse Public License from
- * http://www.opensource.org/licenses/eclipse-1.0.php
+ * https://www.opensource.org/licenses/eclipse-1.0.php
  *
  * Contributors:
  *     Kris De Volder - initial API and implementation
@@ -24,7 +24,7 @@
 
 // Good read about unit testing in node.js:
 //
-// http://caolanmcmahon.com/posts/unit_testing_in_node_js
+// https://caolanmcmahon.com/posts/unit_testing_in_node_js
 
 // A way to run in debug mode (not tried yet)?
 // node --debug `which nodeunit` test/run.js

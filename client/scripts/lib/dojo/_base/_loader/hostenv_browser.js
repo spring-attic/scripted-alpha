@@ -132,8 +132,8 @@ if(typeof window != 'undefined'){
 		d.isMac = dav.indexOf("Macintosh") >= 0;
 
 		// safari detection derived from:
-		//		http://developer.apple.com/internet/safari/faq.html#anchor2
-		//		http://developer.apple.com/internet/safari/uamatrix.html
+		//		https://developer.apple.com/internet/safari/faq.html#anchor2
+		//		https://developer.apple.com/internet/safari/uamatrix.html
 		var index = Math.max(dav.indexOf("WebKit"), dav.indexOf("Safari"), 0);
 		if(index && !dojo.isChrome){
 			// try to grab the explicit Safari version first. If we don't get
@@ -228,7 +228,7 @@ if(typeof window != 'undefined'){
 		}
 
 		//See if base tag is in use.
-		//This is to fix http://trac.dojotoolkit.org/ticket/3973,
+		//This is to fix https://trac.dojotoolkit.org/ticket/3973,
 		//but really, we need to find out how to get rid of the dojo._Url reference
 		//below and still have DOH work with the dojo.i18n test following some other
 		//test that uses the test frame to load a document (trac #2757).
@@ -415,7 +415,7 @@ if(typeof window != 'undefined'){
 			//DOMContentLoaded approximation. Diego Perini found this MSDN article
 			//that indicates doScroll is available after DOM ready, so do a setTimeout
 			//to check when it is available.
-			//http://msdn.microsoft.com/en-us/library/ms531426.aspx
+			//https://msdn.microsoft.com/en-us/library/ms531426.aspx
 			if(!dojo.config.skipIeDomLoaded && self === self.top){
 				dojo._scrollIntervalId = setInterval(function (){
 					try{

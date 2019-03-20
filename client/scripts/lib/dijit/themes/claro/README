@@ -34,7 +34,7 @@ To install/run less version 2 on mac:
 
 1. Install Node.js
 	Download a built copy from https://github.com/ajaxorg/node-builds.
-	Alternately, o to http://nodejs.org/#download   (./configure, make, make install).
+	Alternately, o to https://nodejs.org/#download   (./configure, make, make install).
 	
 2. Download less from https://github.com/cloudhead/less.js/archives/master
 

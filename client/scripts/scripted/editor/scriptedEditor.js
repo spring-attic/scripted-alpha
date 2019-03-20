@@ -3,8 +3,8 @@
  * Copyright (c) 2010 - 2012 IBM Corporation, VMware and others.
  * All rights reserved. This program and the accompanying materials are made 
  * available under the terms of the Eclipse Public License v1.0 
- * (http://www.eclipse.org/legal/epl-v10.html), and the Eclipse Distribution 
- * License v1.0 (http://www.eclipse.org/org/documents/edl-v10.html). 
+ * (https://www.eclipse.org/legal/epl-v10.html), and the Eclipse Distribution 
+ * License v1.0 (https://www.eclipse.org/org/documents/edl-v10.html). 
  *
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -475,7 +475,7 @@ mHtmlContentAssist, mCssContentAssist) {
 			
 			// set specific header to bypass the cache
 			// TODO FIXADE we should be saving the etag header of the original file request and caching it in local storage
-			// See http://en.wikipedia.org/wiki/HTTP_ETag
+			// See https://en.wikipedia.org/wiki/HTTP_ETag
 			xhrobj.setRequestHeader('If-None-Match', ''+new Date().getTime());
 			xhrobj.send();
 			//xhrobj.onreadystatechange = function() {

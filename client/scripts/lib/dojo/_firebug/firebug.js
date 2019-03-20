@@ -44,7 +44,7 @@ dojo.experimental = function(/* String */ moduleName, /* String? */ extra){
 	//			Firebug is a Firefox extension created by Joe Hewitt (see license). You do not need Dojo to run Firebug.
 	//			Firebug Lite is included in Dojo by permission from Joe Hewitt
 	//			If you are new to Firebug, or used to the Dojo 0.4 dojo.debug, you can learn Firebug
-	//				functionality by reading the function comments below or visiting http://www.getfirebug.com/docs.html
+	//				functionality by reading the function comments below or visiting https://www.getfirebug.com/docs.html
 	//	NOTE:
 	//		To test Firebug Lite in Firefox:
 	//			FF2: set "console = null" before loading dojo and set djConfig.isDebug=true
@@ -362,7 +362,7 @@ dojo.experimental = function(/* String */ moduleName, /* String? */ extra){
 			console._closeDomInspector();
 		},
 		recss: function(){
-			// http://turtle.dojotoolkit.org/~david/recss.html
+			// https://turtle.dojotoolkit.org/~david/recss.html
 			// this is placed in dojo since the console is most likely
 			// in another window and dojo is easilly accessible
 			var i,a,s;a=document.getElementsByTagName('link');

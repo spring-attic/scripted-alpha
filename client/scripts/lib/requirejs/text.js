@@ -1,7 +1,7 @@
 /**
  * @license RequireJS text 1.0.8 Copyright (c) 2010-2011, The Dojo Foundation All Rights Reserved.
  * Available via the MIT or new BSD license.
- * see: http://github.com/jrburke/requirejs for details
+ * see: https://github.com/jrburke/requirejs for details
  */
 /*jslint regexp: true, plusplus: true, sloppy: true */
 /*global require: false, XMLHttpRequest: false, ActiveXObject: false,
@@ -254,7 +254,7 @@
                     // http://www.unicode.org/faq/utf_bom.html
 
                     // Note that when we use utf-8, the BOM should appear as "EF BB BF", but it doesn't due to this bug in the JDK:
-                    // http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4508058
+                    // https://bugs.java.com/bugdatabase/view_bug.do?bug_id=4508058
                     if (line && line.length() && line.charAt(0) === 0xfeff) {
                         // Eat the BOM, since we've already found the encoding on this file,
                         // and we plan to concatenating this buffer with others; the BOM should

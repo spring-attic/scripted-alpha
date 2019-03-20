@@ -396,10 +396,10 @@ define("dojo/_base/NodeList", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base
 			}
 		},
 
-		// http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array#Methods
+		// https://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array#Methods
 
 		// FIXME: handle return values for #3244
-		//		http://trac.dojotoolkit.org/ticket/3244
+		//		https://trac.dojotoolkit.org/ticket/3244
 
 		// FIXME:
 		//		need to wrap or implement:
@@ -415,7 +415,7 @@ define("dojo/_base/NodeList", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base
 			//		This method behaves exactly like the Array.slice method
 			//		with the caveat that it returns a dojo.NodeList and not a
 			//		raw Array. For more details, see Mozilla's (slice
-			//		documentation)[http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:slice]
+			//		documentation)[https://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:slice]
 			// begin: Integer
 			//		Can be a positive or negative integer, with positive
 			//		integers noting the offset to begin at, and negative
@@ -437,7 +437,7 @@ define("dojo/_base/NodeList", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base
 			//		This method behaves exactly like the Array.splice method
 			//		with the caveat that it returns a dojo.NodeList and not a
 			//		raw Array. For more details, see Mozilla's (splice
-			//		documentation)[http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:splice]
+			//		documentation)[https://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:splice]
 			// 		For backwards compatibility, calling .end() on the spliced NodeList
 			// 		does not return the original NodeList -- splice alters the NodeList in place.
 			// index: Integer
@@ -468,7 +468,7 @@ define("dojo/_base/NodeList", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base
 			//	description:
 			//		For more details on the behavior of indexOf, see Mozilla's
 			//		(indexOf
-			//		docs)[http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:indexOf]
+			//		docs)[https://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:indexOf]
 			//	returns:
 			//		Positive Integer or 0 for a match, -1 of not found.
 			return d.indexOf(this, value, fromIndex); // Integer
@@ -481,7 +481,7 @@ define("dojo/_base/NodeList", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base
 			//	description:
 			//		For more details on the behavior of lastIndexOf, see
 			//		Mozilla's (lastIndexOf
-			//		docs)[http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:lastIndexOf]
+			//		docs)[https://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:lastIndexOf]
 			// value: Object
 			//		The value to search for.
 			// fromIndex: Integer?
@@ -494,7 +494,7 @@ define("dojo/_base/NodeList", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base
 		every: function(callback, thisObject){
 			//	summary:
 			//		see `dojo.every()` and the (Array.every
-			//		docs)[http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:every].
+			//		docs)[https://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:every].
 			//		Takes the same structure of arguments and returns as
 			//		dojo.every() with the caveat that the passed array is
 			//		implicitly this NodeList
@@ -509,7 +509,7 @@ define("dojo/_base/NodeList", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base
 			//		`dojo.some()` with the caveat that the passed array is
 			//		implicitly this NodeList.  See `dojo.some()` and Mozilla's
 			//		(Array.some
-			//		documentation)[http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:some].
+			//		documentation)[https://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:some].
 			// callback: Function: the callback
 			// thisObject: Object?: the context
 			return d.some(this, callback, thisObject); // Boolean
@@ -524,7 +524,7 @@ define("dojo/_base/NodeList", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base
 			//		This method behaves exactly like the Array.concat method
 			//		with the caveat that it returns a `dojo.NodeList` and not a
 			//		raw Array. For more details, see the (Array.concat
-			//		docs)[http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:concat]
+			//		docs)[https://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:concat]
 			// item: Object?
 			//		Any number of optional parameters may be passed in to be
 			//		spliced into the NodeList
@@ -981,7 +981,7 @@ define("dojo/_base/NodeList", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base
 								//		addEventListener and can't be dug back
 								//		out to be triggered externally.
 								// see:
-								//		http://developer.mozilla.org/en/docs/DOM:element
+								//		https://developer.mozilla.org/en/docs/DOM:element
 
 								console.log(n, evt, _oe);
 

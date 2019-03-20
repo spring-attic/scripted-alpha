@@ -2,7 +2,7 @@
  * Sizzle CSS Selector Engine - v0.9
  *  Copyright 2009, John Resig
  *  Redistributed with the Dojo Toolkit under the terms of the New BSD license.
- *  More information: http://sizzlejs.com/
+ *  More information: https://sizzlejs.com/
  *
  *  This version from github, dated 1/23/2009, commit: e374a73bbffc12ec3b5f252e7f76e593c508dfa5
  *  Modified for dojo loader, and to fit into dojo namespace. This was done by passing

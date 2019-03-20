@@ -42,9 +42,9 @@ dojo.declare("dojo.currency.__FormatOptions", [dojo.number.__FormatOptions], {
 	//		Should not be set.  Value is assumed to be "currency".
 	//	symbol: String?
 	//		localized currency symbol. The default will be looked up in table of supported currencies in `dojo.cldr`
-	//		A [ISO4217](http://en.wikipedia.org/wiki/ISO_4217) currency code will be used if not found.
+	//		A [ISO4217](https://en.wikipedia.org/wiki/ISO_4217) currency code will be used if not found.
 	//	currency: String?
-	//		an [ISO4217](http://en.wikipedia.org/wiki/ISO_4217) currency code, a three letter sequence like "USD".
+	//		an [ISO4217](https://en.wikipedia.org/wiki/ISO_4217) currency code, a three letter sequence like "USD".
 	//		For use with dojo.currency only.
 	//	places: Number?
 	//		number of decimal places to show.  Default is defined based on which currency is used.
@@ -62,7 +62,7 @@ dojo.currency.format = function(/*Number*/value, /*dojo.currency.__FormatOptions
 // description:
 //		Create a string from a Number using a known, localized pattern.
 //		[Formatting patterns](http://www.unicode.org/reports/tr35/#Number_Elements)
-//		appropriate to the locale are chosen from the [CLDR](http://unicode.org/cldr)
+//		appropriate to the locale are chosen from the [CLDR](https://unicode.org/cldr)
 //		as well as the appropriate symbols and delimiters and number of decimal places.
 //
 // value:
@@ -87,11 +87,11 @@ dojo.declare("dojo.currency.__ParseOptions", [dojo.number.__ParseOptions], {
 	//	type: String?
 	//		Should not be set.  Value is assumed to be currency.
 	//	currency: String?
-	//		an [ISO4217](http://en.wikipedia.org/wiki/ISO_4217) currency code, a three letter sequence like "USD".
+	//		an [ISO4217](https://en.wikipedia.org/wiki/ISO_4217) currency code, a three letter sequence like "USD".
 	//		For use with dojo.currency only.
 	//	symbol: String?
 	//		localized currency symbol. The default will be looked up in table of supported currencies in `dojo.cldr`
-	//		A [ISO4217](http://en.wikipedia.org/wiki/ISO_4217) currency code will be used if not found.
+	//		A [ISO4217](https://en.wikipedia.org/wiki/ISO_4217) currency code will be used if not found.
 	//	places: Number?
 	//		fixed number of decimal places to accept.  The default is determined based on which currency is used.
 	//	fractional: Boolean?|Array?

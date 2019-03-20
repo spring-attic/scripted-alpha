@@ -580,7 +580,7 @@
 		//		different packages throughout the source tree.
 		//
 		//		Each directory is named for a locale as specified by RFC 3066,
-		//		(http://www.ietf.org/rfc/rfc3066.txt), normalized in lowercase.
+		//		(https://www.ietf.org/rfc/rfc3066.txt), normalized in lowercase.
 		//		Note that the two bundles in the example do not define all the
 		//		same variants.  For a given locale, bundles will be loaded for
 		//		that locale and all more general locales above it, including a
@@ -667,7 +667,7 @@
 
 			// Safari doesn't support this.constructor so we have to be explicit
 			// FIXME: Tracked (and fixed) in Webkit bug 3537.
-			//		http://bugs.webkit.org/show_bug.cgi?id=3537
+			//		https://bugs.webkit.org/show_bug.cgi?id=3537
 			var relobj = new d._Url(_a[i]+""),
 				uriobj = new d._Url(uri[0]+"");
 

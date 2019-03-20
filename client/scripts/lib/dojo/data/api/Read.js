@@ -5,7 +5,7 @@ dojo.declare("dojo.data.api.Read", null, {
 	//		This is an abstract API that data provider implementations conform to.
 	//		This file defines methods signatures and intentionally leaves all the
 	//		methods unimplemented.  For more information on the dojo.data APIs,
-	//		please visit: http://www.dojotoolkit.org/node/98
+	//		please visit: https://www.dojotoolkit.org/node/98
 
 	getValue: function(	/* item */ item,
 						/* attribute-name-string */ attribute,

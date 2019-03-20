@@ -5,7 +5,7 @@
  * ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
  * CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
  * You can obtain a current copy of the Eclipse Public License from
- * http://www.opensource.org/licenses/eclipse-1.0.php
+ * https://www.opensource.org/licenses/eclipse-1.0.php
  *
  * Contributors:
  *     Kris De Volder (VMWare) - initial API and implementation
