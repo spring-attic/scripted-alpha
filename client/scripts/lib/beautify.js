@@ -7,7 +7,7 @@
 
 
   Written by Einar Lielmanis, <einar@jsbeautifier.org>
-      http://jsbeautifier.org/
+      https://beautifier.io/
 
   Originally converted to javascript by Vital, <vital76@gmail.com>
   "End braces on own line" added by Chris J. Shull, <chrisjshull@gmail.com>
@@ -607,7 +607,7 @@ function js_beautify(js_source_text, options) {
 
             // Spidermonkey-specific sharp variables for circular references
             // https://developer.mozilla.org/En/Sharp_variables_in_JavaScript
-            // http://mxr.mozilla.org/mozilla-central/source/js/src/jsscan.cpp around line 1935
+            // https://mxr.mozilla.org/mozilla-central/source/js/src/jsscan.cpp around line 1935
             var sharp = '#';
             if (parser_pos < input_length && in_array(input.charAt(parser_pos), digits)) {
                 do {

@@ -34,7 +34,7 @@ dojo.declare(
 		//			but erased during editing, so that the user can just enter a plain number.
 
 		// currency: [const] String
-		//		the [ISO4217](http://en.wikipedia.org/wiki/ISO_4217) currency code, a three letter sequence like "USD"
+		//		the [ISO4217](https://en.wikipedia.org/wiki/ISO_4217) currency code, a three letter sequence like "USD"
 		currency: "",
 
 		/*=====

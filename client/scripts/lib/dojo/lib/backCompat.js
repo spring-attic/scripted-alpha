@@ -165,7 +165,7 @@ define(["require", "dojo/_base/_loader/bootstrap"], function(require, dojo){
 
 			// Safari doesn't support this.constructor so we have to be explicit
 			// FIXME: Tracked (and fixed) in Webkit bug 3537.
-			//		http://bugs.webkit.org/show_bug.cgi?id=3537
+			//		https://bugs.webkit.org/show_bug.cgi?id=3537
 			var relobj = new dojo._Url(_a[i]+""),
 				uriobj = new dojo._Url(uri[0]+"");
 

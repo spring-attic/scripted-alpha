@@ -5,7 +5,7 @@
  * ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
  * CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
  * You can obtain a current copy of the Eclipse Public License from
- * http://www.opensource.org/licenses/eclipse-1.0.php
+ * https://www.opensource.org/licenses/eclipse-1.0.php
  *
  * Contributors:
  *     Andrew Eisenberg (VMware) - initial API and implementation
@@ -104,7 +104,7 @@ define(["plugins/esprima/esprimaJsContentAssist", "orion/assert"], function(mEsp
 	
 	//////////////////////////////////////////////////////////
 	// AMD dependencies name value pairs (NVP)
-	// See http://requirejs.org/docs/api.html#defsimple
+	// See https://requirejs.org/docs/api.html#defsimple
 	//////////////////////////////////////////////////////////
 	tests.testNVP1 = function() {
 		assertCreateSummary('{"provided":{"$$proto":"Object","a":"Number","b":"String"},"types":{},"kind":"AMD"}',

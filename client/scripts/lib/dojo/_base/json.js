@@ -2,7 +2,7 @@ define("dojo/_base/json", ["dojo/lib/kernel"], function(dojo){
 
 dojo.fromJson = function(/*String*/ json){
 	// summary:
-	// 		Parses a [JSON](http://json.org) string to return a JavaScript object.
+	// 		Parses a [JSON](https://json.org) string to return a JavaScript object.
 	// description:
 	// 		Throws for invalid JSON strings, but it does not use a strict JSON parser. It
 	// 		delegates to eval().  The content passed to this method must therefore come
@@ -27,9 +27,9 @@ dojo._escapeString = function(/*String*/str){
 dojo.toJsonIndentStr = "\t";
 dojo.toJson = function(/*Object*/ it, /*Boolean?*/ prettyPrint, /*String?*/ _indentStr){
 	//	summary:
-	//		Returns a [JSON](http://json.org) serialization of an object.
+	//		Returns a [JSON](https://json.org) serialization of an object.
 	//	description:
-	//		Returns a [JSON](http://json.org) serialization of an object.
+	//		Returns a [JSON](https://json.org) serialization of an object.
 	//		Note that this doesn't check for infinite recursion, so don't do that!
 	//	it:
 	//		an object to be serialized. Objects may define their own

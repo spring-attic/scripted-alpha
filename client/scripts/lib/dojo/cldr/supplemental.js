@@ -7,7 +7,7 @@ dojo.cldr.supplemental.getFirstDayOfWeek = function(/*String?*/locale){
 //		Returns a zero-based index for first day of the week, as used by the local (Gregorian) calendar.
 //		e.g. Sunday (returns 0), or Monday (returns 1)
 
-	// from http://www.unicode.org/cldr/data/common/supplemental/supplementalData.xml:supplementalData/weekData/firstDay
+	// from https://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml:supplementalData/weekData/firstDay
 	var firstDay = {/*default is 1=Monday*/
 		mv:5,
 		ae:6,af:6,bh:6,dj:6,dz:6,eg:6,er:6,et:6,iq:6,ir:6,jo:6,ke:6,kw:6,
@@ -35,7 +35,7 @@ dojo.cldr.supplemental._region = function(/*String?*/locale){
 			ja:"jp", ko:"kr", nl:"nl", pt:"br", sv:"se", zh:"cn"}[tags[0]];
 	}else if(region.length == 4){
 		// The ISO 3166 country code is usually in the second position, unless a
-		// 4-letter script is given. See http://www.ietf.org/rfc/rfc4646.txt
+		// 4-letter script is given. See https://www.ietf.org/rfc/rfc4646.txt
 		region = tags[2];
 	}
 	return region;
@@ -48,7 +48,7 @@ dojo.cldr.supplemental.getWeekend = function(/*String?*/locale){
 //		or by default in the user's locale.
 //		e.g. {start:6, end:0}
 
-	// from http://www.unicode.org/cldr/data/common/supplemental/supplementalData.xml:supplementalData/weekData/weekend{Start,End}
+	// from https://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml:supplementalData/weekData/weekend{Start,End}
 	var weekendStart = {/*default is 6=Saturday*/
 		'in':0,
 		af:4,dz:4,ir:4,om:4,sa:4,ye:4,

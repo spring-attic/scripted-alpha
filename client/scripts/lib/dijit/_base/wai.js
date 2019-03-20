@@ -30,7 +30,7 @@ dijit.wai = {
 			var needsA11y = (cs.borderTopColor == cs.borderRightColor) || (bkImg != null && (bkImg == "none" || bkImg == "url(invalid-url:)" ));
 			dojo[needsA11y ? "addClass" : "removeClass"](dojo.body(), "dijit_a11y");
 			if(dojo.isIE){
-				div.outerHTML = "";		// prevent mixed-content warning, see http://support.microsoft.com/kb/925014
+				div.outerHTML = "";		// prevent mixed-content warning, see https://support.microsoft.com/kb/925014
 			}else{
 				dojo.body().removeChild(div);
 			}

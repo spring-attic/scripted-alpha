@@ -9,8 +9,8 @@ dojo.date.stamp.fromISOString = function(/*String*/formattedString, /*Number?*/d
 	//
 	//	description:
 	//		Accepts a string formatted according to a profile of ISO8601 as defined by
-	//		[RFC3339](http://www.ietf.org/rfc/rfc3339.txt), except that partial input is allowed.
-	//		Can also process dates as specified [by the W3C](http://www.w3.org/TR/NOTE-datetime)
+	//		[RFC3339](https://www.ietf.org/rfc/rfc3339.txt), except that partial input is allowed.
+	//		Can also process dates as specified [by the W3C](https://www.w3.org/TR/NOTE-datetime)
 	//		The following combinations are valid:
 	//
 	//			* dates only
@@ -101,7 +101,7 @@ dojo.date.stamp.toISOString = function(/*Date*/dateObject, /*dojo.date.stamp.__O
 	//		Format a Date object as a string according a subset of the ISO-8601 standard
 	//
 	//	description:
-	//		When options.selector is omitted, output follows [RFC3339](http://www.ietf.org/rfc/rfc3339.txt)
+	//		When options.selector is omitted, output follows [RFC3339](https://www.ietf.org/rfc/rfc3339.txt)
 	//		The local time zone is included as an offset from GMT, except when selector=='time' (time without a date)
 	//		Does not check bounds.  Only years between 100 and 9999 are supported.
 	//

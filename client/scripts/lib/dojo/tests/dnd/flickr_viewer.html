@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd"> 
 <html>
 <head>
 	<title>Sort Flickr images by tags</title>
@@ -116,7 +116,7 @@
 			};
 			// ask Flickr for images
 			var td = dojo.io.script.get({
-				url: "http://api.flickr.com/services/feeds/photos_public.gne",
+				url: "https://api.flickr.com/services/feeds/photos_public.gne",
 				content: {tags: "cat,dog,cow", tagmode: "any", format: "json"},
 				handleAs: "text/javascript",
 				preventCache: true

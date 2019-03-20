@@ -207,9 +207,9 @@ dojo.back = {
 		//
 		//		If you want the browser location string to change, define "changeUrl" on the object. If the
 		//		value of "changeUrl" is true, then a unique number will be appended to the URL as a fragment
-		//		identifier (http://some.domain.com/path#uniquenumber). If it is any other value that does
+		//		identifier (https://some.domain.com/path#uniquenumber). If it is any other value that does
 		//		not evaluate to false, that value will be used as the fragment identifier. For example,
-		//		if changeUrl: 'page1', then the URL will look like: http://some.domain.com/path#page1
+		//		if changeUrl: 'page1', then the URL will look like: https://some.domain.com/path#page1
 		//
 		//		There are problems with using dojo.back with semantically-named fragment identifiers
 		//		("hash values" on an URL). In most browsers it will be hard for dojo.back to know

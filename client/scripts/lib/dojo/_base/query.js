@@ -1146,7 +1146,7 @@ var defineQuery= function(d){
 		var useQSA = (
 			qsaAvail && (!forceDOM) &&
 			// as per CSS 3, we can't currently start w/ combinator:
-			//		http://www.w3.org/TR/css3-selectors/#w3cselgrammar
+			//		https://www.w3.org/TR/css3-selectors/#w3cselgrammar
 			(specials.indexOf(qcz) == -1) &&
 			// IE's QSA impl sucks on pseudos
 			(!d.isIE || (query.indexOf(":") == -1)) &&
@@ -1159,7 +1159,7 @@ var defineQuery= function(d){
 			//		Latest webkit (around 531.21.8) does not seem to do well with :checked on option
 			//		elements, even though according to spec, selected options should
 			//		match :checked. So go nonQSA for it:
-			//		http://bugs.dojotoolkit.org/ticket/5179
+			//		https://bugs.dojotoolkit.org/ticket/5179
 			(query.indexOf(":contains") == -1) && (query.indexOf(":checked") == -1) &&
 			(query.indexOf("|=") == -1) // some browsers don't grok it
 		);
@@ -1180,7 +1180,7 @@ var defineQuery= function(d){
 					// the QSA system contains an egregious spec bug which
 					// limits us, effectively, to only running QSA queries over
 					// entire documents.  See:
-					//		http://ejohn.org/blog/thoughts-on-queryselectorall/
+					//		https://johnresig.com/blog/thoughts-on-queryselectorall/
 					//	despite this, we can also handle QSA runs on simple
 					//	selectors, but we don't want detection to be expensive
 					//	so we're just checking for the presence of a space char
@@ -1386,7 +1386,7 @@ var defineQuery= function(d){
 		//
 		//	query:
 		//		The CSS3 expression to match against. For details on the syntax of
-		//		CSS3 selectors, see <http://www.w3.org/TR/css3-selectors/#selectors>
+		//		CSS3 selectors, see <https://www.w3.org/TR/css3-selectors/#selectors>
 		//	root:
 		//		A DOMNode (or node id) to scope the search from. Optional.
 		//	returns: dojo.NodeList

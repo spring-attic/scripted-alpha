@@ -11,9 +11,9 @@
 		// MAPS 
 		//
 		{
-			// http://developer.yahoo.com/maps/rest/V1/mapImage.html
+			// https://developer.yahoo.com/maps/rest/V1/mapImage.html
 			"name":"mapImage",
-			"serviceURL": "http://api.local.yahoo.com/MapsService/V1/mapImage",
+			"serviceURL": "https://api.local.yahoo.com/MapsService/V1/mapImage",
 			"parameters":[
 				{ "name":"street", "type":"STRING" },
 				{ "name":"city", "type":"STRING" },
@@ -29,9 +29,9 @@
 			]
 		},
 		{
-			// http://developer.yahoo.com/traffic/rest/V1/index.html
+			// https://developer.yahoo.com/traffic/rest/V1/index.html
 			"name":"trafficData",
-			"serviceURL": "http://api.local.yahoo.com/MapsService/V1/trafficData",
+			"serviceURL": "https://api.local.yahoo.com/MapsService/V1/trafficData",
 			"parameters":[
 				{ "name":"street", "type":"STRING" },
 				{ "name":"city", "type":"STRING" },
@@ -52,9 +52,9 @@
 		// LOCAL SEARCH
 		//
 		{
-			// http://developer.yahoo.com/search/local/V3/localSearch.html
+			// https://developer.yahoo.com/search/local/V3/localSearch.html
 			"name":"localSearch",
-			"serviceURL": "http://api.local.yahoo.com/LocalSearchService/V3/localSearch",
+			"serviceURL": "https://api.local.yahoo.com/LocalSearchService/V3/localSearch",
 			"parameters":[
 				{ "name":"street", "type":"STRING" },
 				{ "name":"city", "type":"STRING" },
@@ -76,9 +76,9 @@
 		// WEB SEARCH
 		//
 		{
-			// http://developer.yahoo.com/search/web/V1/webSearch.html 
+			// https://developer.yahoo.com/search/web/V1/webSearch.html 
 			"name":"webSearch",
-			"serviceURL": "http://api.search.yahoo.com/WebSearchService/V1/webSearch",
+			"serviceURL": "https://api.search.yahoo.com/WebSearchService/V1/webSearch",
 			"parameters":[
 				{ "name":"query", "type":"STRING" },
 				{ "name":"type", "type":"STRING" }, // defaults to "all"
@@ -96,24 +96,24 @@
 			]
 		},
 		{
-			// http://developer.yahoo.com/search/web/V1/spellingSuggestion.html
+			// https://developer.yahoo.com/search/web/V1/spellingSuggestion.html
 			"name":"spellingSuggestion",
-			"serviceURL": "http://api.search.yahoo.com/WebSearchService/V1/spellingSuggestion",
+			"serviceURL": "https://api.search.yahoo.com/WebSearchService/V1/spellingSuggestion",
 			"parameters":[ { "name":"query", "type":"STRING" } ]
 		},
 		{
-			// http://developer.yahoo.com/search/web/V1/relatedSuggestion.html
+			// https://developer.yahoo.com/search/web/V1/relatedSuggestion.html
 			"name":"relatedSuggestion",
-			"serviceURL": "http://api.search.yahoo.com/WebSearchService/V1/relatedSuggestion",
+			"serviceURL": "https://api.search.yahoo.com/WebSearchService/V1/relatedSuggestion",
 			"parameters":[
 				{ "name":"query", "type":"STRING" },
 				{ "name":"results", "type":"INTEGER" } // 1-50, defaults to 10
 			]
 		},
 		{
-			// http://developer.yahoo.com/search/content/V1/termExtraction.html
+			// https://developer.yahoo.com/search/content/V1/termExtraction.html
 			"name":"termExtraction",
-			"serviceURL": "http://search.yahooapis.com/ContentAnalysisService/V1/termExtraction",
+			"serviceURL": "https://search.yahooapis.com/ContentAnalysisService/V1/termExtraction",
 			"parameters":[
 				{ "name":"query", "type":"STRING" },
 				{ "name":"context", "type":"STRING" },
@@ -121,9 +121,9 @@
 			]
 		},
 		{
-			// http://developer.yahoo.com/search/web/V1/contextSearch.html
+			// https://developer.yahoo.com/search/web/V1/contextSearch.html
 			"name":"contextSearch",
-			"serviceURL": "http://search.yahooapis.com/WebSearchService/V1/contextSearch",
+			"serviceURL": "https://search.yahooapis.com/WebSearchService/V1/contextSearch",
 			"parameters":[
 				{ "name":"query", "type":"STRING" },
 				{ "name":"context", "type":"STRING" },
@@ -143,9 +143,9 @@
 		// IMAGE SEARCH
 		//
 		{
-			// http://developer.yahoo.com/search/image/V1/imageSearch.html
+			// https://developer.yahoo.com/search/image/V1/imageSearch.html
 			"name":"imageSearch",
-			"serviceURL": "http://api.search.yahoo.com/ImageSearchService/V1/imageSearch",
+			"serviceURL": "https://api.search.yahoo.com/ImageSearchService/V1/imageSearch",
 			"parameters":[
 				{ "name":"query", "type":"STRING" },
 				{ "name":"type", "type":"STRING" }, // defaults to "all", can by "any" or "phrase"
@@ -161,9 +161,9 @@
 		// SITE EXPLORER
 		//
 		{
-			// http://developer.yahoo.com/search/siteexplorer/V1/inlinkData.html 
+			// https://developer.yahoo.com/search/siteexplorer/V1/inlinkData.html 
 			"name":"inlinkData",
-			"serviceURL": "http://api.search.yahoo.com/SiteExplorerService/V1/inlinkData",
+			"serviceURL": "https://api.search.yahoo.com/SiteExplorerService/V1/inlinkData",
 			"parameters":[
 				{ "name":"query", "type":"STRING" },
 				{ "name":"type", "type":"STRING" }, // defaults to "all", can by "any" or "phrase"
@@ -175,9 +175,9 @@
 			]
 		},
 		{
-			// http://developer.yahoo.com/search/siteexplorer/V1/pageData.html
+			// https://developer.yahoo.com/search/siteexplorer/V1/pageData.html
 			"name":"pageData",
-			"serviceURL": "http://api.search.yahoo.com/SiteExplorerService/V1/pageData",
+			"serviceURL": "https://api.search.yahoo.com/SiteExplorerService/V1/pageData",
 			"parameters":[
 				{ "name":"query", "type":"STRING" },
 				{ "name":"type", "type":"STRING" }, // defaults to "all", can by "any" or "phrase"
@@ -191,9 +191,9 @@
 		// MUSIC SEARCH
 		//
 		{
-			// http://developer.yahoo.com/search/audio/V1/artistSearch.html
+			// https://developer.yahoo.com/search/audio/V1/artistSearch.html
 			"name":"artistSearch",
-			"serviceURL": "http://api.search.yahoo.com/AudioSearchService/V1/artistSearch",
+			"serviceURL": "https://api.search.yahoo.com/AudioSearchService/V1/artistSearch",
 			"parameters":[
 				{ "name":"artist", "type":"STRING" },
 				{ "name":"artistid", "type":"STRING" },
@@ -203,9 +203,9 @@
 			]
 		},
 		{
-			// http://developer.yahoo.com/search/audio/V1/albumSearch.html
+			// https://developer.yahoo.com/search/audio/V1/albumSearch.html
 			"name":"albumSearch",
-			"serviceURL": "http://api.search.yahoo.com/AudioSearchService/V1/albumSearch",
+			"serviceURL": "https://api.search.yahoo.com/AudioSearchService/V1/albumSearch",
 			"parameters":[
 				{ "name":"artist", "type":"STRING" },
 				{ "name":"artistid", "type":"STRING" },
@@ -216,9 +216,9 @@
 			]
 		},
 		{
-			// http://developer.yahoo.com/search/audio/V1/songSearch.html
+			// https://developer.yahoo.com/search/audio/V1/songSearch.html
 			"name":"songSearch",
-			"serviceURL": "http://api.search.yahoo.com/AudioSearchService/V1/songSearch",
+			"serviceURL": "https://api.search.yahoo.com/AudioSearchService/V1/songSearch",
 			"parameters":[
 				{ "name":"artist", "type":"STRING" },
 				{ "name":"artistid", "type":"STRING" },
@@ -232,9 +232,9 @@
 			]
 		},
 		{
-			// http://developer.yahoo.com/search/audio/V1/songDownloadLocation.html
+			// https://developer.yahoo.com/search/audio/V1/songDownloadLocation.html
 			"name":"songDownloadLocation",
-			"serviceURL": "http://api.search.yahoo.com/AudioSearchService/V1/songDownloadLocation",
+			"serviceURL": "https://api.search.yahoo.com/AudioSearchService/V1/songDownloadLocation",
 			"parameters":[
 				{ "name":"songid", "type":"STRING" },
 				// "source" can contain:
@@ -251,9 +251,9 @@
 		// NEWS SEARCH
 		//
 		{
-			// http://developer.yahoo.com/search/news/V1/newsSearch.html
+			// https://developer.yahoo.com/search/news/V1/newsSearch.html
 			"name":"newsSearch",
-			"serviceURL": "http://api.search.yahoo.com/NewsSearchService/V1/newsSearch",
+			"serviceURL": "https://api.search.yahoo.com/NewsSearchService/V1/newsSearch",
 			"parameters":[
 				{ "name":"query", "type":"STRING" },
 				{ "name":"type", "type":"STRING" }, // defaults to "all"

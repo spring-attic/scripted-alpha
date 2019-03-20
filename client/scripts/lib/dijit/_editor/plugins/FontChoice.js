@@ -424,7 +424,7 @@ dojo.declare("dijit._editor.plugins.FontChoice", dijit._editor._Plugin,{
 	//	|	plugins="[{name:'dijit._editor.plugins.FontChoice', command:'fontName', custom:['Verdana','Myriad','Garamond']},...]"
 	//
 	//		Alternatively, for `fontName` only, `generic:true` may be specified to provide a dropdown with
-	//		[CSS generic font families](http://www.w3.org/TR/REC-CSS2/fonts.html#generic-font-families)
+	//		[CSS generic font families](https://www.w3.org/TR/REC-CSS2/fonts.html#generic-font-families)
 	//
 	//		Note that the editor is often unable to properly handle font styling information defined outside
 	//		the context of the current editor instance, such as pre-populated HTML.

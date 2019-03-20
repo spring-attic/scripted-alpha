@@ -1,6 +1,6 @@
 <?php // IF you don't have PHP5 installed, you can't use this index! ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-	"http://www.w3.org/TR/html4/strict.dtd">
+	"https://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
 	<title>Dojo Toolkit - Every Dijit Test + Theme</title>

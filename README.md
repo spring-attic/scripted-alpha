@@ -7,7 +7,7 @@ Scripted is a browser based editor and the editor itself is served from a locall
 server instance.  
 
 <center>
-<img src="http://dist.springsource.org/release/SCRIPTED/screenshot2.png" width="736" height="451"/>
+<img src="https://dist.springsource.org/release/SCRIPTED/screenshot2.png" width="736" height="451"/>
 </center>
 
 What are the key features?
@@ -29,21 +29,21 @@ dependencies and also uses JSDoc comments to help it understand the code.
 - Sidepanel: alongside the main editor a sidepanel can be opened - currently this can be used to host a second editor.
 - Key binding to external command: Key bindings in the editor can invoke external commands (less, mvn, etc)
 
-The editor is actually the [Eclipse Orion](http://www.eclipse.org/orion/) editor with a few additional bells and whistles.
+The editor is actually the [Eclipse Orion](https://www.eclipse.org/orion/) editor with a few additional bells and whistles.
 Anyone familiar with editing in Eclipse will immediately know many of the key bindings
 the Scripted editor supports.
 
 Many of these are covered in this introductory screencast:<br>
-<a href="http://dist.springsource.org/release/SCRIPTED/Scripted2.mov"><img align="center" src="http://dist.springsource.org/release/SCRIPTED/posterScripted2.png" width="428" height="263"/></a>
+<a href="https://dist.springsource.org/release/SCRIPTED/Scripted2.mov"><img align="center" src="https://dist.springsource.org/release/SCRIPTED/posterScripted2.png" width="428" height="263"/></a>
 
 # How do I try it out?
 
-The only pre-req for trying it out is that you have Node.js installed. Grab it from here: [http://nodejs.org/](http://nodejs.org).
+The only pre-req for trying it out is that you have Node.js installed. Grab it from here: [https://nodejs.org/](https://nodejs.org).
 The team has been testing with recent versions from 0.6 to 0.8.
 
 Then you can grab the most recent packaged release from here:
 
-[Version 0.2.0](http://dist.springsource.org/release/SCRIPTED/scripted_v0.2.0.zip)
+[Version 0.2.0](https://dist.springsource.org/release/SCRIPTED/scripted_v0.2.0.zip)
 
 OR you can live on the bleeding edge by either cloning the repository:
 

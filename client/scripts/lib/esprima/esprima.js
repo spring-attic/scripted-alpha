@@ -2244,8 +2244,8 @@ parseStatement: true, parseSourceElement: true */
 
     // kind may be `const` or `let`
     // Both are experimental and not in the specification yet.
-    // see http://wiki.ecmascript.org/doku.php?id=harmony:const
-    // and http://wiki.ecmascript.org/doku.php?id=harmony:let
+    // see https://wiki.ecmascript.org/doku.php?id=harmony:const
+    // and https://wiki.ecmascript.org/doku.php?id=harmony:let
     function parseConstLetDeclaration(kind) {
         var declarations;
 

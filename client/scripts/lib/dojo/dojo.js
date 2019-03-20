@@ -41,7 +41,7 @@
 //		customized, high-performance packages of Dojo suitable for use with
 //		your application, please visit:
 //
-//			http://dojotoolkit.org
+//			https://dojotoolkit.org
 //
 //		Regards,
 //		The Dojo Team

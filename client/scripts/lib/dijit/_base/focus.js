@@ -232,7 +232,7 @@ dojo.mixin(dijit, {
 			try{
 				dojo.withGlobal(openedForWindow || dojo.global, dijit.moveToBookmark, null, [bookmark]);
 			}catch(e2){
-				/*squelch IE internal error, see http://trac.dojotoolkit.org/ticket/1984 */
+				/*squelch IE internal error, see https://trac.dojotoolkit.org/ticket/1984 */
 			}
 		}
 	},

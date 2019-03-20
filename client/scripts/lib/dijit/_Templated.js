@@ -76,7 +76,7 @@ dojo.declare("dijit._Templated",
 				// in case a user wishes to insert unescaped markup, e.g. ${!foo}
 				return key.charAt(0) == "!" ? value :
 					// Safer substitution, see heading "Attribute values" in
-					// http://www.w3.org/TR/REC-html40/appendix/notes.html#h-B.3.2
+					// https://www.w3.org/TR/REC-html40/appendix/notes.html#h-B.3.2
 					value.toString().replace(/"/g,"&quot;"); //TODO: add &amp? use encodeXML method?
 			}, this);
 		},

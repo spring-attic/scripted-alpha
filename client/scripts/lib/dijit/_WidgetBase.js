@@ -16,13 +16,13 @@ dojo.declare("dijit._WidgetBase", dojo.Stateful, {
 
 	// lang: [const] String
 	//		Rarely used.  Overrides the default Dojo locale used to render this widget,
-	//		as defined by the [HTML LANG](http://www.w3.org/TR/html401/struct/dirlang.html#adef-lang) attribute.
+	//		as defined by the [HTML LANG](https://www.w3.org/TR/html401/struct/dirlang.html#adef-lang) attribute.
 	//		Value must be among the list of locales specified during by the Dojo bootstrap,
-	//		formatted according to [RFC 3066](http://www.ietf.org/rfc/rfc3066.txt) (like en-us).
+	//		formatted according to [RFC 3066](https://www.ietf.org/rfc/rfc3066.txt) (like en-us).
 	lang: "",
 
 	// dir: [const] String
-	//		Bi-directional support, as defined by the [HTML DIR](http://www.w3.org/TR/html401/struct/dirlang.html#adef-dir)
+	//		Bi-directional support, as defined by the [HTML DIR](https://www.w3.org/TR/html401/struct/dirlang.html#adef-dir)
 	//		attribute. Either left-to-right "ltr" or right-to-left "rtl".  If undefined, widgets renders in page's
 	//		default direction.
 	dir: "",
@@ -166,7 +166,7 @@ dojo.declare("dijit._WidgetBase", dojo.Stateful, {
 		//			  tree
 		// description:
 		//		Create calls a number of widget methods (postMixInProperties, buildRendering, postCreate,
-		//		etc.), some of which of you'll want to override. See http://docs.dojocampus.org/dijit/_Widget
+		//		etc.), some of which of you'll want to override. See https://docs.dojocampus.org/dijit/_Widget
 		//		for a discussion of the widget creation lifecycle.
 		//
 		//		Of course, adventurous developers could override create entirely, but this should

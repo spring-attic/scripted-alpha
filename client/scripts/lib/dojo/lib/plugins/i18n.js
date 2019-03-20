@@ -18,7 +18,7 @@ define(["dojo"], function(dojo) {
 			// nlsRe.exec("foo/bar/baz/nls/foo") gives:
 			// ["foo/bar/baz/nls/foo", "foo/bar/baz/nls/", "/", "/", "foo", ""]
 			// so, if match[5] is blank, it means this is the top bundle definition.
-			// courtesy of http://requirejs.org
+			// courtesy of https://requirejs.org
 			/(^.*(^|\/)nls(\/|$))([^\/]*)\/?([^\/]*)/,
 		
 		getAvailableLocales= function(

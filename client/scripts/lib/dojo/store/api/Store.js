@@ -9,7 +9,7 @@ dojo.declare("dojo.store.api.Store", null, {
 	//		This is an abstract API that data provider implementations conform to.
 	//		This file defines methods signatures and intentionally leaves all the
 	//		methods unimplemented.  For more information on the dojo.store APIs,
-	//		please visit: http://dojotoolkit.org/reference-guide/dojo/store.html
+	//		please visit: https://dojotoolkit.org/reference-guide/dojo/store.html
 	//		Every method and property is optional, and is only needed if the functionality
 	//		it provides is required.
 	//		Every method may return a promise for the specified return value if the 

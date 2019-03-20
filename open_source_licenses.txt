@@ -79,7 +79,7 @@ Copyright (c) 2011, The Dojo Foundation All Rights Reserved.
  
 Available via the MIT or new BSD license.
 
-see: http://github.com/jrburke/amdefine for details
+see: https://github.com/jrburke/amdefine for details
 
 amdefine is released under two licenses: new BSD, and MIT. You may pick the
 license that best suits your development needs. The text of both licenses are
@@ -464,7 +464,7 @@ dojo-release-1.6.1-src.zip\dojo-release-1.6.1-src\util\shrinksafe\shrinksafe.jar
 The contents of this file are subject to the Mozilla Public License Version
 1.1 (the "License"); you may not use this file except in compliance with
 the License. You may obtain a copy of the License at
-http://www.mozilla.org/MPL/
+https://www.mozilla.org/MPL/
 
 Software distributed under the License is distributed on an "AS IS" basis,
 WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
@@ -507,7 +507,7 @@ Beans Scripting Framework (BSF)
 Copyright 2002-2006 The Apache Software Foundation.
 
 This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
+The Apache Software Foundation (https://www.apache.org/).
 
 
 >MIT
@@ -517,8 +517,8 @@ dojo-release-1.6.1-src.zip\dojo-release-1.6.1-src\util\buildscripts\cldr\ldml\LI
 UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE
 
 Unicode Data Files include all data files under the directories http://www.unicode.org/Public/, http://www.unicode.org/reports/,
-and http://www.unicode.org/cldr/data/ . Unicode Software includes any source code published in the Unicode Standard or under
-the directories http://www.unicode.org/Public/, http://www.unicode.org/reports/, and http://www.unicode.org/cldr/data/.
+and https://unicode.org/repos/cldr/trunk/ . Unicode Software includes any source code published in the Unicode Standard or under
+the directories http://www.unicode.org/Public/, http://www.unicode.org/reports/, and https://unicode.org/repos/cldr/trunk/.
 NOTICE TO USER: Carefully read the following legal agreement. BY DOWNLOADING, INSTALLING, COPYING OR
 OTHERWISE USING UNICODE INC.'S DATA FILES ("DATA FILES"), AND/OR SOFTWARE ("SOFTWARE"), YOU
 UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE TERMS AND CONDITIONS OF THIS
@@ -610,9 +610,9 @@ Copyright (c) 2006 Klaus Hartl (stilbuero.de)
 
 Dual licensed under the MIT and GPL licenses:
 
-http://www.opensource.org/licenses/mit-license.php
+https://www.opensource.org/licenses/mit-license.php
 
-http://www.gnu.org/licenses/gpl.html
+https://www.gnu.org/licenses/gpl.html
 
 
 >>> jquery-ui-1.8.20
@@ -622,12 +622,12 @@ http://www.gnu.org/licenses/gpl.html
 
 The jQuery UI library is currently available for use in all personal or commercial projects under both MIT and GPL licenses. Choose the license that best suits your project, and use it accordingly
 
-Copyright (c) 2012 Paul Bakaus, http://jqueryui.com/
+Copyright (c) 2012 Paul Bakaus, https://jqueryui.com/
 
 This software consists of voluntary contributions made by many
-individuals (AUTHORS.txt, http://jqueryui.com/about) For exact
+individuals (AUTHORS.txt, https://jqueryui.com/about) For exact
 contribution history, see the revision history and logs, available
-at http://jquery-ui.googlecode.com/svn/
+at https://jquery-ui.googlecode.com/svn/
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -655,19 +655,19 @@ ADDITIONAL LICENSE INFORMATION:
 [PLEASE NOTE:  VMWARE, INC. ELECTS TO USE AND DISTRIBUTE THIS COMPONENT UNDER THE TERMS OF THE MIT.  PLEASE SEE BELOW TO REVIEW THE FULL TEXT OF MIT. THE ORIGINAL LICENSE TERMS ARE REPRODUCED BELOW ONLY AS A REFERENCE.]
 
 jQuery JavaScript Library v1.7.2
-http://jquery.com/
+https://jquery.com/
 
 Copyright 2011, John Resig
 Dual licensed under the MIT or GPL Version 2 licenses.
-http://jquery.org/license
+https://jquery.org/license
 
 Includes Sizzle.js
-http://sizzlejs.com/
+https://sizzlejs.com/
 Copyright 2011, The Dojo Foundation
 Released under the MIT, BSD, and GPL Licenses.
 
 Copyright 2012 jQuery Foundation and other contributors
-http://jquery.com/
+https://jquery.com/
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -705,7 +705,7 @@ Version: MPL 1.1/GPL 2.0
 The contents of this file are subject to the Mozilla Public License Version
 1.1 (the "License"); you may not use this file except in compliance with
 the License. You may obtain a copy of the License at
-http://www.mozilla.org/MPL/
+https://www.mozilla.org/MPL/
 
 Software distributed under the License is distributed on an "AS IS" basis,
 WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
@@ -767,10 +767,10 @@ Copyright (c) 2005 Brian Goetz
 Released under the Creative Commons Attribution License
     
 
-(http://creativecommons.org/licenses/by/2.5)
+(https://creativecommons.org/licenses/by/2.5)
   
 
-Official home: http://www.jcip.net
+Official home: http://jcip.net/
 
 
 
@@ -855,7 +855,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Copyright (c) 2010-2011, The Dojo Foundation All Rights Reserved.
 Available via the MIT or new BSD license.
-see: http://github.com/jrburke/requirejs for details
+see: https://github.com/jrburke/requirejs for details
 
 RequireJS is released under two licenses: new BSD, and MIT. You may pick the
 license that best suits your development needs. The text of both licenses are
@@ -955,7 +955,7 @@ DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL PARATYPE BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ParaType Ltd
-http://www.paratype.ru
+https://www.paratype.ru
 
 
 > BSD
@@ -964,7 +964,7 @@ http://www.paratype.ru
 jrburke-requirejs-1.0.8-0-g07de481.zip\jrburke-requirejs-271076e\dist\ Markdown-License.text
 
 Copyright (c) 2004, John Gruber  
-<http://daringfireball.net/>  
+<https://daringfireball.net/>  
 
 All rights reserved.
 
@@ -1212,21 +1212,21 @@ jrburke-requirejs-1.0.8-0-g07de481.zip\jrburke-requirejs-271076e\tests\jquery\sc
 
 
 jQuery JavaScript Library v1.7b2
-http://jquery.com/
+https://jquery.com/
 
 Copyright 2011, John Resig
 Dual licensed under the MIT or GPL Version 2 licenses.
-http://jquery.org/license
+https://jquery.org/license
 
 Includes Sizzle.js
-http://sizzlejs.com/
+https://sizzlejs.com/
 Copyright 2011, The Dojo Foundation
 Released under the MIT, BSD, and GPL Licenses.
 
 
 Copyright 2012 jQuery Foundation and other contributors
 
-http://jquery.com/
+https://jquery.com/
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -1621,7 +1621,7 @@ OR SOFTWARE.
 
 COPYRIGHT AND PERMISSION NOTICE
 
-Copyright © 1991-2009 Unicode, Inc. All rights reserved. Distributed under
+Copyright ï¿½ 1991-2009 Unicode, Inc. All rights reserved. Distributed under
 the Terms of Use in http:www.unicode.org/copyright.html.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -1770,9 +1770,9 @@ org.eclipse.help.base_3.6.100.v201206081400.jar
 
 eclipse-orion-0.5-win32.win32.x86.zip\eclipse\plugins\javax.xml_1.3.4.v201005080400.jar\about_files\LICENSE.sax.txt
 
-This license came from: http://www.megginson.com/SAX/copying.html
+This license came from: http://www.megginson.com/downloads/SAX/
   
-However please note future versions of SAX may be covered under http://saxproject.org/?selected=pd
+However please note future versions of SAX may be covered under https://saxproject.org/?selected=pd
 
 
 This page is now out of date -- see the new SAX site at http://www.saxproject.org/ for more up-to-date releases and other information. Please change your bookmarks.
@@ -2251,7 +2251,7 @@ Exhibit A -Sun Public License Notice.
 	The contents of this file are subject to the Sun Public License
 	Version 1.0 (the "License"); you may not use this file except in
 	compliance with the License. A copy of the License is available at
-	http://www.sun.com/
+	https://www.sun.com/
 
 	The Original Code is _________________. The Initial Developer of the
 	Original Code is ___________. Portions created by ______ are Copyright
@@ -2927,7 +2927,7 @@ The Apache Software License, Version 1.1
  3. The end-user documentation included with the redistribution,
     if any, must include the following acknowledgment:
        "This product includes software developed by the
-        Apache Software Foundation (http://www.apache.org/)."
+        Apache Software Foundation (https://www.apache.org/)."
     Alternately, this acknowledgment may appear in the software itself,
     if and wherever such third-party acknowledgments normally appear.
 
@@ -2957,7 +2957,7 @@ The Apache Software License, Version 1.1
  This software consists of voluntary contributions made by many
  individuals on behalf of the Apache Software Foundation.  For more
  information on the Apache Software Foundation, please see
- <http://www.apache.org/>.
+ <https://www.apache.org/>.
 
 
 
@@ -3268,7 +3268,7 @@ available Covered Code of the Contributor's choice.
 XML , Java technology developed pursuant to the Java Community Process.
 1.12. "Technology Compatibility Kit" or "TCK" means the documentation, testing
 tools and testsuites associated with the Specification as may be revised by BEA from time to
-time, that is provided so that an implementer of the Specifi¡cation may determine if its
+time, that is provided so that an implementer of the Specifiï¿½cation may determine if its
 implementation is compliant with the Specification.
 
 1.13. "You" (or "Your") means an individual or a legal entity exercising rights
@@ -3356,7 +3356,7 @@ documentation and/or other materials provided with the distribution.
 any, must include the following acknowledgment:
 
 "This product includes software developed by Daisuke Okajima
-and Kohsuke Kawaguchi (http://relaxngcc.sf.net/)."
+and Kohsuke Kawaguchi (http://relaxngcc.sourceforge.net/)."
 
 Alternately, this acknowledgment may appear in the software itself,
 if and wherever such third-party acknowledgments normally appear.
@@ -3474,7 +3474,7 @@ License
 
 
 
-Copyright ²² 2004 by the Open Source Initiative
+Copyright ï¿½ï¿½ 2004 by the Open Source Initiative
 Technical questions about the website go to Steve M.: webmaster at
 opensource.org / Policy questions about open source go to the Board of Directors.
 
@@ -4146,11 +4146,11 @@ The following software may be included in this product: ANT.  Use of any of this
 > Public Domain
 
 Portions of this product were developed using ANTLR.  ANTLR 1989-2000 
-developed by jGuru.com, http://www.ANTLR.org and http://www.jGuru.com.
+developed by jGuru.com, https://www.ANTLR.org and http://www.jGuru.com.
 
 
 ANTLR 1989-2000 Developed by jGuru.com (MageLang Institute), 
-http://www.ANTLR.org  and http://www.jGuru.com
+https://www.ANTLR.org  and http://www.jGuru.com
 
 We reserve no legal rights to the ANTLR--it is fully in the
 public domain. An individual or company may do whatever
@@ -4179,7 +4179,7 @@ completed.
 ***** [VMWARE DOES NOT DISTRIBUTE THE COMPONENTS SCHEMA 2 BEANS AND DSCHEMA] ******
 
 
-The following software may be included in this product: schema2beans, dbschema from the Netbeans Project, http://www.netbeans.org.  Use of any of this software is governed  by the terms of the license below:
+The following software may be included in this product: schema2beans, dbschema from the Netbeans Project, https://www.netbeans.org.  Use of any of this software is governed  by the terms of the license below:
 
 
 SUN PUBLIC LICENSE Version 1.0
@@ -4630,7 +4630,7 @@ SUN PUBLIC LICENSE Version 1.0
  The contents of this file are subject to the Sun Public License
  Version 1.0 (the "License"); you may not use this file except in
  compliance with the License. A copy of the License is available at
- http://www.sun.com/
+ https://www.sun.com/
 
  The Original Code is _________________. The Initial Developer of the
  Original Code is ___________. Portions created by ______ are Copyright
@@ -4713,7 +4713,7 @@ See README.txt for additional licensing information.
  3. The end-user documentation included with the redistribution,
     if any, must include the following acknowledgment:
        "This product includes software developed by the
-        Apache Software Foundation (http://www.apache.org/)."
+        Apache Software Foundation (https://www.apache.org/)."
     Alternately, this acknowledgment may appear in the software itself,
     if and wherever such third-party acknowledgments normally appear.
 
@@ -4743,7 +4743,7 @@ See README.txt for additional licensing information.
  This software consists of voluntary contributions made by many
  individuals on behalf of the Apache Software Foundation.  For more
  information on the Apache Software Foundation, please see
- http://www.apache.org/.
+ https://www.apache.org/.
 
  
 > Apache 2.0
@@ -4957,10 +4957,10 @@ The following software may be included in this product: Jakarta Commons. Use of 
 
 The following software may be included in this product: Apache XML Security. Use of any of this software is governed by the terms of the license below: 
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistribution in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. All advertising materials mentioning features or use of this software must display the following acknowledgment: This product includes software developed by the Java Apache Project for use in the Apache JServ servlet engine project (http://java.apache.org/).
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistribution in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. All advertising materials mentioning features or use of this software must display the following acknowledgment: This product includes software developed by the Java Apache Project for use in the Apache JServ servlet engine project (https://java.apache.org/).
 
 The names "Apache JServ", "Apache JServ Servlet Engine" and "Java Apache Project" must not be used to endorse or promote products derived from this software without prior written permission. Products derived from this software may not be called "Apache JServ" nor may "Apache" nor "Apache JServ" appear in their names without prior written permission of the Java Apache Project. Redistribution of any form whatsoever must retain the following acknowledgment: This product includes software 
-developed by the Java Apache Project for use in the Apache JServ servlet engine project (http://java.apache.org/).
+developed by the Java Apache Project for use in the Apache JServ servlet engine project (https://java.apache.org/).
 THIS SOFTWARE IS PROVIDED BY THE JAVA APACHE PROJECT "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE JAVA APACHE PROJECT OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
@@ -4968,9 +4968,9 @@ THIS SOFTWARE IS PROVIDED BY THE JAVA APACHE PROJECT "AS IS" AND ANY EXPRESSED O
 
 @@ XML Web Services Security
 %% The following software may be included in this product: Apache XML Security. Use of any of this software is governed by the terms of the license below: 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistribution in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. All advertising materials mentioning features or use of this software must display the following acknowledgment: This product includes software developed by the Java Apache Project for use in the Apache JServ servlet engine project (http://java.apache.org/).
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistribution in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. All advertising materials mentioning features or use of this software must display the following acknowledgment: This product includes software developed by the Java Apache Project for use in the Apache JServ servlet engine project (https://java.apache.org/).
 
-The names "Apache JServ", "Apache JServ Servlet Engine" and "Java Apache Project" must not be used to endorse or promote products derived from this software without prior written permission. Products derived from this software may not be called "Apache JServ" nor may "Apache" nor "Apache JServ" appear in their names without prior written permission of the Java Apache Project. Redistribution of any form whatsoever must retain the following acknowledgment: This product includes software developed by the Java Apache Project for use in the Apache JServ servlet engine project (http://java.apache.org/).
+The names "Apache JServ", "Apache JServ Servlet Engine" and "Java Apache Project" must not be used to endorse or promote products derived from this software without prior written permission. Products derived from this software may not be called "Apache JServ" nor may "Apache" nor "Apache JServ" appear in their names without prior written permission of the Java Apache Project. Redistribution of any form whatsoever must retain the following acknowledgment: This product includes software developed by the Java Apache Project for use in the Apache JServ servlet engine project (https://java.apache.org/).
 THIS SOFTWARE IS PROVIDED BY THE JAVA APACHE PROJECT "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE JAVA APACHE PROJECT OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
@@ -5002,7 +5002,7 @@ The following software may be included in this product: Apache Commons Logging, 
  3. The end-user documentation included with the redistribution,
     if any, must include the following acknowledgement:
        "This product includes software developed by the
-        Apache Software Foundation (http://www.apache.org/)."
+        Apache Software Foundation (https://www.apache.org/)."
     Alternately, this acknowledgement may appear in the software itself,
     if and wherever such third-party acknowledgements normally appear.
 
@@ -5032,7 +5032,7 @@ The following software may be included in this product: Apache Commons Logging, 
  This software consists of voluntary contributions made by many
  individuals on behalf of the Apache Software Foundation.  For more
  information on the Apache Software Foundation, please see
- <http://www.apache.org/>.
+ <https://www.apache.org/>.
 
 
 > Academic Free License 2.1
@@ -5148,7 +5148,7 @@ of that jurisdiction excluding its conflict-of-law provisions. The application
 of the United Nations Convention on Contracts for the International Sale of
 Goods is expressly excluded. Any use of the Original Work outside the scope of
 this License or after its termination shall be subject to the requirements and
-penalties of the U.S. Copyright Act, 17 U.S.C. º 101 et seq., the equivalent
+penalties of the U.S. Copyright Act, 17 U.S.C. ï¿½ 101 et seq., the equivalent
 laws of other countries, and international treaty. This section shall survive
 the termination of this License.
 
@@ -5902,7 +5902,7 @@ third-party acknowledgments normally appear.
 4. The names "Sun", "Sun Microsystems, Inc.", "JXTA" and "Project JXTA" must not
 be used to endorse or promote products derived from this software without prior
 written permission. For written permission, please contact Project JXTA at
-http://www.jxta.org.
+https://www.jxta.org.
 
 5. Products derived from this software may not be called "JXTA", nor may "JXTA"appear in their name, without prior written permission of Sun.
 
@@ -7082,7 +7082,7 @@ with Creative Commons' then-current trademark usage guidelines, as may be
 published on its website or otherwise made available upon request from time to
 time.
 
-Creative Commons may be contacted at http://creativecommons.org/.
+Creative Commons may be contacted at https://creativecommons.org/.
 
 
 
