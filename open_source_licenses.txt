@@ -400,7 +400,7 @@ closure-compiler
 
 some of extensions is derived from closure-compiler
 
-Apache License Version 2.0, January 2004 http://www.apache.org/licenses/
+Apache License Version 2.0, January 2004 https://www.apache.org/licenses/
 
 
 >>> dojo-1.6.1
@@ -747,7 +747,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-http://www.apache.org/licenses/LICENSE-2.0
+https://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -1621,7 +1621,7 @@ OR SOFTWARE.
 
 COPYRIGHT AND PERMISSION NOTICE
 
-Copyright © 1991-2009 Unicode, Inc. All rights reserved. Distributed under
+Copyright ï¿½ 1991-2009 Unicode, Inc. All rights reserved. Distributed under
 the Terms of Use in http:www.unicode.org/copyright.html.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -2284,7 +2284,7 @@ The following software may be included in this product:  Java DB (Derby)
  
  				Apache License
    			Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                        https://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -2476,7 +2476,7 @@ The following software may be included in this product:  Java DB (Derby)
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -2492,7 +2492,7 @@ Use of any of this software is governed by the terms of the license below:
  				
  				Apache License
    			Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                        https://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -2684,7 +2684,7 @@ Use of any of this software is governed by the terms of the license below:
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -2700,7 +2700,7 @@ Use of any of this software is governed by the terms of the license below:
  
  				Apache License
                            Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                        https://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -2892,7 +2892,7 @@ Use of any of this software is governed by the terms of the license below:
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -2967,7 +2967,7 @@ The following software may be included in this product: REGEXP 1.2. Use of any o
 
 				Apache License
                            Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                        https://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -3159,7 +3159,7 @@ The following software may be included in this product: REGEXP 1.2. Use of any o
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -3268,7 +3268,7 @@ available Covered Code of the Contributor's choice.
 XML , Java technology developed pursuant to the Java Community Process.
 1.12. "Technology Compatibility Kit" or "TCK" means the documentation, testing
 tools and testsuites associated with the Specification as may be revised by BEA from time to
-time, that is provided so that an implementer of the Specifi¡cation may determine if its
+time, that is provided so that an implementer of the Specifiï¿½cation may determine if its
 implementation is compliant with the Specification.
 
 1.13. "You" (or "Your") means an individual or a legal entity exercising rights
@@ -3474,7 +3474,7 @@ License
 
 
 
-Copyright ²² 2004 by the Open Source Initiative
+Copyright ï¿½ï¿½ 2004 by the Open Source Initiative
 Technical questions about the website go to Steve M.: webmaster at
 opensource.org / Policy questions about open source go to the Board of Directors.
 
@@ -3531,7 +3531,7 @@ The Apache Software License, v2.0
 
    				Apache License
                            Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                        https://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -3721,7 +3721,7 @@ The Apache Software License, v2.0
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -3737,7 +3737,7 @@ The following software may be included in this product: Tomcat.  Use of any of t
 
 				Apache License
                            Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                        https://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -3927,7 +3927,7 @@ The following software may be included in this product: Tomcat.  Use of any of t
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -3943,7 +3943,7 @@ The following software may be included in this product: ANT.  Use of any of this
  ====================================================================
  				Apache License
                            Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                        https://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -4133,7 +4133,7 @@ The following software may be included in this product: ANT.  Use of any of this
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -4752,7 +4752,7 @@ The following software may be included in this product: Jakarta Commons. Use of 
 
                                  Apache License
                            Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                        https://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -4944,7 +4944,7 @@ The following software may be included in this product: Jakarta Commons. Use of 
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -5148,7 +5148,7 @@ of that jurisdiction excluding its conflict-of-law provisions. The application
 of the United Nations Convention on Contracts for the International Sale of
 Goods is expressly excluded. Any use of the Original Work outside the scope of
 this License or after its termination shall be subject to the requirements and
-penalties of the U.S. Copyright Act, 17 U.S.C. º 101 et seq., the equivalent
+penalties of the U.S. Copyright Act, 17 U.S.C. ï¿½ 101 et seq., the equivalent
 laws of other countries, and international treaty. This section shall survive
 the termination of this License.
 
@@ -5230,7 +5230,7 @@ The following software may be included in this product: Shale, Velocity
 
 Apache License
 Version 2.0, January 2004
-http://www.apache.org/licenses/
+https://www.apache.org/licenses/
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -5924,7 +5924,7 @@ and other countries.
 
 Apache License
 Version 2.0, January 2004
-http://www.apache.org/licenses/
+https://www.apache.org/licenses/
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -6545,7 +6545,7 @@ to a jury trial in any resulting litigation.
 Apache License 
 
 Version 2.0, January 2004 
-http://www.apache.org/licenses/ 
+https://www.apache.org/licenses/ 
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 
 
