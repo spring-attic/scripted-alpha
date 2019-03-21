@@ -6,7 +6,7 @@
 
 dojo.cldr = {
 	// summary: transformation of relevant pieces of the Unicode.org Common Locale Data Repository
-	// (see http://unicode.org/cldr) to JSON from the original XML with associated utility classes
+	// (see https://unicode.org/cldr) to JSON from the original XML with associated utility classes
 };
 
 dojo.data = {

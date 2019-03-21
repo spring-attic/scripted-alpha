@@ -6,7 +6,7 @@ if(typeof window != 'undefined'){
 
 
 	// FIXME: PORTME
-	//	http://developer.mozilla.org/en/mozIJSSubScriptLoader
+	//	https://developer.mozilla.org/en/mozIJSSubScriptLoader
 
 
 	// attempt to figure out the path to dojo if it isn't set in the config
@@ -49,7 +49,7 @@ if(typeof window != 'undefined'){
 			});
 			if(handleLocal){
 				// see:
-				//		http://developer.mozilla.org/en/mozIJSSubScriptLoader
+				//		https://developer.mozilla.org/en/mozIJSSubScriptLoader
 				var l = Components.classes["@mozilla.org/moz/jssubscript-loader;1"]
 					.getService(Components.interfaces.mozIJSSubScriptLoader);
 				var value = l.loadSubScript(uri, d.global)

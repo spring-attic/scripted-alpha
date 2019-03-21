@@ -34,7 +34,7 @@
 
 	Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 	Code licensed under the BSD License:
-	http://developer.yahoo.net/yui/license.txt
+	https://developer.yahoo.net/yui/license.txt
 	version: 2.2.1
 */
 
@@ -72,7 +72,7 @@ abbr, acronym {
 
 	Style definitions, based loosely on the Dijit Tundra theme.
 	Relative unit calculations based on "Compose to a Vertical Rhythm",
-	by Richard Rutter (http://24ways.org/2006/compose-to-a-vertical-rhythm)
+	by Richard Rutter (https://24ways.org/2006/compose-to-a-vertical-rhythm)
 
 	If changing the font size, make sure you do it in both
 	percent and px (% for IE, px for everything else). 

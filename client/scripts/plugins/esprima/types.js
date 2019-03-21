@@ -5,7 +5,7 @@
  * ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
  * CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
  * You can obtain a current copy of the Eclipse Public License from
- * http://www.opensource.org/licenses/eclipse-1.0.php
+ * https://www.opensource.org/licenses/eclipse-1.0.php
  *
  * Contributors:
  *     Andrew Eisenberg (VMware) - initial API and implementation
@@ -273,7 +273,7 @@ define("plugins/esprima/types", [], function() {
 	/**
 	 * Populate the Types object with built-in types.  These are not meant to be changed through the inferencing process
 	 * This uses the built in types as defined in the ECMA script reference manual 262.  Available at
-	 * http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf section 15.
+	 * https://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf section 15.
 	 */
 	Types.prototype = {
 
@@ -622,7 +622,7 @@ define("plugins/esprima/types", [], function() {
 			registerProtocolHandler : new Definition("?undefined:protocol,url,title")
 		},
 		
-		// (not in MDN) http://www.coursevector.com/dommanual/dom/objects/MimeTypeArray.html
+		// (not in MDN) https://www.coursevector.com/dommanual/dom/objects/MimeTypeArray.html
 		MimeTypeArray : {
 			$$isBuiltin: true,
 			length : new Definition("Number"),
@@ -630,7 +630,7 @@ define("plugins/esprima/types", [], function() {
 			namedItem : new Definition("?MimeType:name")
 		},
 		
-		// (not in MDN) http://www.coursevector.com/dommanual/dom/objects/MimeType.html
+		// (not in MDN) https://www.coursevector.com/dommanual/dom/objects/MimeType.html
 		MimeType : {
 			$$isBuiltin: true,
 			description : new Definition("String"),
@@ -639,7 +639,7 @@ define("plugins/esprima/types", [], function() {
 			enabledPlugin : new Definition("Plugin")
 		},
 		
-		// (not in MDN) http://www.coursevector.com/dommanual/dom/objects/Plugin.html
+		// (not in MDN) https://www.coursevector.com/dommanual/dom/objects/Plugin.html
 		Plugin : {
 			$$isBuiltin: true,
 			description : new Definition("String"),
@@ -650,7 +650,7 @@ define("plugins/esprima/types", [], function() {
 			namedItem : new Definition("?MimeType:name")
 		},
 		
-		// http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/Overview.html#the-connection-interface
+		// https://dvcs.w3.org/hg/dap/raw-file/tip/network-api/Overview.html#the-connection-interface
 		Connection : {
 			$$isBuiltin: true,
 			bandwidth : new Definition("Number"),
@@ -659,7 +659,7 @@ define("plugins/esprima/types", [], function() {
 			onchange : new Definition("Function")
 		},
 		
-		// http://dev.w3.org/html5/webstorage/#storage-0
+		// https://dev.w3.org/html5/webstorage/#storage-0
 		Storage : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -673,7 +673,7 @@ define("plugins/esprima/types", [], function() {
 			clear : new Definition("?undefined:")
 		},
 		
-		// http://dvcs.w3.org/hg/xhr/raw-file/tip/Overview.html#interface-xmlhttprequest
+		// https://dvcs.w3.org/hg/xhr/raw-file/tip/Overview.html#interface-xmlhttprequest
 		XMLHttpRequest : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -702,7 +702,7 @@ define("plugins/esprima/types", [], function() {
 			statusText : new Definition("String")
 		},
 		
-		// http://www.w3.org/TR/workers/
+		// https://www.w3.org/TR/workers/
 		Worker : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -712,13 +712,13 @@ define("plugins/esprima/types", [], function() {
 			onmessage : new Definition("?undefined:")
 		},
 		
-		// http://www.w3.org/TR/workers/#messageport
+		// https://www.w3.org/TR/workers/#messageport
 		MessagePort : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object")
 		},
 		
-		// http://www.whatwg.org/specs/web-apps/current-work/multipage//network.html#websocket
+		// https://www.whatwg.org/specs/web-apps/current-work/multipage//network.html#websocket
 		WebSocket : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -754,7 +754,7 @@ define("plugins/esprima/types", [], function() {
 		},
 
 		// TODO FIXADE remove ???
-		// http://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#eventhandler
+		// https://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#eventhandler
 		EventHandler : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object")
@@ -793,7 +793,7 @@ define("plugins/esprima/types", [], function() {
 			BUBBLING_PHASE : new Definition("Number")
 		},
 		
-		// see http://www.w3.org/TR/dom/#documenttype
+		// see https://www.w3.org/TR/dom/#documenttype
 		DocumentType : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Node"),
@@ -808,7 +808,7 @@ define("plugins/esprima/types", [], function() {
 			remove : new Definition("?undefined:")
 		},
 		
-		// see http://www.whatwg.org/specs/web-apps/current-work/multipage/history.html#the-history-interface
+		// see https://www.whatwg.org/specs/web-apps/current-work/multipage/history.html#the-history-interface
 		History : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -823,8 +823,8 @@ define("plugins/esprima/types", [], function() {
 			replaceState : new Definition("?undefined:data,title,url")
 		},
 		
-		// see http://www.w3.org/TR/dom/#document (complete)
-		// see http://www.w3.org/TR/html5/dom.html#documents-in-the-dom (incomplete)
+		// see https://www.w3.org/TR/dom/#document (complete)
+		// see https://www.w3.org/TR/html5/dom.html#documents-in-the-dom (incomplete)
 		Document : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Node"),
@@ -861,7 +861,7 @@ define("plugins/esprima/types", [], function() {
 			append : new Definition("?undefined:[nodes]")
 		},
 		
-		// see http://www.w3.org/TR/dom/#domimplementation
+		// see https://www.w3.org/TR/dom/#domimplementation
 		DOMImplementation : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -872,7 +872,7 @@ define("plugins/esprima/types", [], function() {
 			hasFeature : new Definition("?Boolean:feature")
 		},
 		
-		// see http://www.w3.org/TR/dom/#node
+		// see https://www.w3.org/TR/dom/#node
 		Node : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -931,7 +931,7 @@ define("plugins/esprima/types", [], function() {
 			DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC : new Definition("Number")
 		},
 		
-		// see http://www.w3.org/TR/dom/#element
+		// see https://www.w3.org/TR/dom/#element
 		Element : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Node"),
@@ -977,7 +977,7 @@ define("plugins/esprima/types", [], function() {
 			remove : new Definition("?undefined:")
 		},
 		
-		// see http://www.w3.org/TR/dom/#attr
+		// see https://www.w3.org/TR/dom/#attr
 		Attr : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Node"),
@@ -990,7 +990,7 @@ define("plugins/esprima/types", [], function() {
 			localName : new Definition("String")
 		},
 		
-		// see http://www.w3.org/TR/dom/#interface-nodelist
+		// see https://www.w3.org/TR/dom/#interface-nodelist
 		NodeList : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -1015,7 +1015,7 @@ define("plugins/esprima/types", [], function() {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object")
 		},
-		// see http://www.whatwg.org/specs/web-apps/current-work/multipage/history.html#dom-location
+		// see https://www.whatwg.org/specs/web-apps/current-work/multipage/history.html#dom-location
 		Location : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -1034,7 +1034,7 @@ define("plugins/esprima/types", [], function() {
 			hash : new Definition("String")
 		},
 		
-		// see http://dvcs.w3.org/hg/editing/raw-file/tip/editing.html#selections
+		// see https://dvcs.w3.org/hg/editing/raw-file/tip/editing.html#selections
 		Selection : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -1062,7 +1062,7 @@ define("plugins/esprima/types", [], function() {
 			removeAllRanges : new Definition("?undefined:")
 		},
 		
-		// see http://www.w3.org/TR/html5/the-html-element.html#the-html-element
+		// see https://www.w3.org/TR/html5/the-html-element.html#the-html-element
 		// incomplete
 		HTMLElement : {
 			$$isBuiltin: true,
@@ -1075,7 +1075,7 @@ define("plugins/esprima/types", [], function() {
 			className : new Definition("String")
 		},
 		 
-		// see http://www.w3.org/TR/html5/the-img-element.html#htmlimageelement
+		// see https://www.w3.org/TR/html5/the-img-element.html#htmlimageelement
 		// incomplete
 		HTMLImageElement : {
 			$$isBuiltin: true,
@@ -1088,7 +1088,7 @@ define("plugins/esprima/types", [], function() {
 			$$proto : new Definition("HTMLElement")
 		},
 		 
-		// http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-75708506
+		// https://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-75708506
 		HTMLCollection : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -1109,7 +1109,7 @@ define("plugins/esprima/types", [], function() {
 			$$proto : new Definition("Object")
 		},
 		
-		// http://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#interface-documentfragment
+		// https://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#interface-documentfragment
 		DocumentFragment : {
 			$$isBuiltin: true,
 			$$proto : new Definition("Node"),
@@ -1136,7 +1136,7 @@ define("plugins/esprima/types", [], function() {
 			$$proto : new Definition("Node")
 		},
 		
-		// see http://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#ranges
+		// see https://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#ranges
 		Range: {
 			$$isBuiltin: true,
 			$$proto : new Definition("Object"),
@@ -1200,7 +1200,7 @@ define("plugins/esprima/types", [], function() {
 		}
 		
 // HTML constructors
-// http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-33759296
+// https://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-33759296
 /*		
 HTMLVideoElement
 HTMLAppletElement
@@ -1273,7 +1273,7 @@ HTMLMeterElement
 HTMLKeygenElement
 */
 // SVG constructors
-// http://www.w3.org/TR/SVG11/struct.html#NewDocument
+// https://www.w3.org/TR/SVG11/struct.html#NewDocument
 /*
 SVGScriptElement
 SVGCircleElement

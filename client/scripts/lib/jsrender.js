@@ -1,8 +1,8 @@
-/*! JsRender v1.0pre: http://github.com/BorisMoore/jsrender */
+/*! JsRender v1.0pre: https://github.com/BorisMoore/jsrender */
 /*
 * Optimized version of jQuery Templates, for rendering to string.
 * Does not require jQuery, or HTML DOM
-* Integrates with JsViews (http://github.com/BorisMoore/jsviews)
+* Integrates with JsViews (https://github.com/BorisMoore/jsviews)
 * Copyright 2012, Boris Moore
 * Released under the MIT License.
 */

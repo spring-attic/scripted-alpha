@@ -4,8 +4,8 @@
  * Copyright (c) 2010, 2012 IBM Corporation and others 
  * All rights reserved. This program and the accompanying materials are made 
  * available under the terms of the Eclipse Public License v1.0 
- * (http://www.eclipse.org/legal/epl-v10.html), and the Eclipse Distribution 
- * License v1.0 (http://www.eclipse.org/org/documents/edl-v10.html). 
+ * (https://www.eclipse.org/legal/epl-v10.html), and the Eclipse Distribution 
+ * License v1.0 (https://www.eclipse.org/org/documents/edl-v10.html). 
  * 
  * Contributors:
  * IBM Corporation - initial API and implementation
@@ -165,7 +165,7 @@ define(['require', 'dojo', 'dijit', /*'orion/auth',*/ 'orion/util', 'orion/searc
 		},
 		/**
 		 * Escapes all characters in the string that require escaping in Lucene queries.
-		 * See http://lucene.apache.org/java/2_4_0/queryparsersyntax.html#Escaping%20Special%20Characters
+		 * See https://lucene.apache.org/java/2_4_0/queryparsersyntax.html#Escaping%20Special%20Characters
 		 * The following characters need to be escaped in lucene queries: + - && || ! ( ) { } [ ] ^ " ~ * ? : \
 		 * @param {Boolean} [omitWildcards=false] If true, the * and ? characters will not be escaped.
 		 * @private

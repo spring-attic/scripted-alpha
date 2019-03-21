@@ -555,7 +555,7 @@ dojo.declare("dojo.data.ItemFileWriteStore", dojo.data.ItemFileReadStore, {
 		// summary:
 		//		Generate a string that can be saved to a file.
 		//		The result should look similar to:
-		//		http://trac.dojotoolkit.org/browser/dojo/trunk/tests/data/countries.json
+		//		https://trac.dojotoolkit.org/browser/dojo/trunk/tests/data/countries.json
 		var serializableStructure = {};
 		
 		var identifierAttribute = this._getIdentifierAttribute();

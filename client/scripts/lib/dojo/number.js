@@ -39,7 +39,7 @@ dojo.number.format = function(/*Number*/value, /*dojo.number.__FormatOptions?*/o
 	// description:
 	//		Create a string from a Number using a known localized pattern.
 	//		Formatting patterns appropriate to the locale are chosen from the
-	//		[Common Locale Data Repository](http://unicode.org/cldr) as well as the appropriate symbols and
+	//		[Common Locale Data Repository](https://unicode.org/cldr) as well as the appropriate symbols and
 	//		delimiters.
 	//		If value is Infinity, -Infinity, or is not a valid JavaScript number, return null.
 	// value:

@@ -3,9 +3,9 @@ dojo.getObject("cldr.monetary", true, dojo);
 
 dojo.cldr.monetary.getData = function(/*String*/code){
 // summary: A mapping of currency code to currency-specific formatting information. Returns a unique object with properties: places, round.
-// code: an [ISO 4217](http://en.wikipedia.org/wiki/ISO_4217) currency code
+// code: an [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) currency code
 
-// from http://www.unicode.org/cldr/data/common/supplemental/supplementalData.xml:supplementalData/currencyData/fractions
+// from https://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml:supplementalData/currencyData/fractions
 
 	var placesData = {
 		ADP:0,AFN:0,ALL:0,AMD:0,BHD:3,BIF:0,BYR:0,CLF:0,CLP:0,

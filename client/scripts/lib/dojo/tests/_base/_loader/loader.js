@@ -10,18 +10,18 @@ tests.register("tests._base._loader.loader",
 		
 		function modulePaths(t){
 			dojo.registerModulePath("mycoolmod", "../some/path/mycoolpath");
-			dojo.registerModulePath("mycoolmod.widget", "http://some.domain.com/another/path/mycoolpath/widget");
+			dojo.registerModulePath("mycoolmod.widget", "https://some.domain.com/another/path/mycoolpath/widget");
 
 			t.assertEqual("../some/path/mycoolpath/util", dojo._getModuleSymbols("mycoolmod.util").join("/"));
-			t.assertEqual("http://some.domain.com/another/path/mycoolpath/widget", dojo._getModuleSymbols("mycoolmod.widget").join("/"));
-			t.assertEqual("http://some.domain.com/another/path/mycoolpath/widget/thingy", dojo._getModuleSymbols("mycoolmod.widget.thingy").join("/"));
+			t.assertEqual("https://some.domain.com/another/path/mycoolpath/widget", dojo._getModuleSymbols("mycoolmod.widget").join("/"));
+			t.assertEqual("https://some.domain.com/another/path/mycoolpath/widget/thingy", dojo._getModuleSymbols("mycoolmod.widget.thingy").join("/"));
 		},
 		
 		function moduleUrls(t){
 			dojo.registerModulePath("mycoolmod", "some/path/mycoolpath");
 			dojo.registerModulePath("mycoolmod2", "/some/path/mycoolpath2");
-			dojo.registerModulePath("mycoolmod.widget", "http://some.domain.com/another/path/mycoolpath/widget");
-			dojo.registerModulePath("ipv4.widget", "http://ipv4user:ipv4passwd@some.domain.com:2357/another/path/ipv4/widget");
+			dojo.registerModulePath("mycoolmod.widget", "https://some.domain.com/another/path/mycoolpath/widget");
+			dojo.registerModulePath("ipv4.widget", "https://ipv4user:ipv4passwd@some.domain.com:2357/another/path/ipv4/widget");
 			dojo.registerModulePath("ipv6.widget", "ftp://ipv6user:ipv6passwd@[::2001:0db8:3c4d:0015:0:0:abcd:ef12]:1113/another/path/ipv6/widget");
 			dojo.registerModulePath("ipv6.widget2", "https://[0:0:0:0:0:1]/another/path/ipv6/widget2");
 
@@ -42,13 +42,13 @@ tests.register("tests._base._loader.loader",
 			t.assertEqual("/some/path/mycoolpath2/my/favorite.html",
 				dojo.moduleUrl("mycoolmod2.my", "favorite.html").toString());
 
-			t.assertEqual("http://some.domain.com/another/path/mycoolpath/widget/my/favorite.html",
+			t.assertEqual("https://some.domain.com/another/path/mycoolpath/widget/my/favorite.html",
 				dojo.moduleUrl("mycoolmod.widget", "my/favorite.html").toString());
-			t.assertEqual("http://some.domain.com/another/path/mycoolpath/widget/my/favorite.html",
+			t.assertEqual("https://some.domain.com/another/path/mycoolpath/widget/my/favorite.html",
 				dojo.moduleUrl("mycoolmod.widget.my", "favorite.html").toString());
 
 			// individual component testing
-			t.assertEqual("http://ipv4user:ipv4passwd@some.domain.com:2357/another/path/ipv4/widget/components.html",
+			t.assertEqual("https://ipv4user:ipv4passwd@some.domain.com:2357/another/path/ipv4/widget/components.html",
 				dojo.moduleUrl("ipv4.widget", "components.html").uri);
 			t.assertEqual("http",
 				dojo.moduleUrl("ipv4.widget", "components.html").scheme);

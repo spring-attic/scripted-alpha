@@ -6,7 +6,7 @@ define("dojo/_base/declare", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base/
 
 	function err(msg, cls){ throw new Error("declare" + (cls ? " " + cls : "") + ": " + msg); }
 
-	// C3 Method Resolution Order (see http://www.python.org/download/releases/2.3/mro/)
+	// C3 Method Resolution Order (see https://www.python.org/download/releases/2.3/mro/)
 	function c3mro(bases, className){
 		var result = [], roots = [{cls: 0, refs: []}], nameMap = {}, clsCount = 1,
 			l = bases.length, i = 0, j, lin, base, top, proto, rec, name, refs;
@@ -579,7 +579,7 @@ define("dojo/_base/declare", ["dojo/lib/kernel", "dojo/_base/lang", "dojo/_base/
 		//		Ancestors can be compound classes created by this version of
 		//		dojo.declare. In complex cases all base classes are going to be
 		//		linearized according to C3 MRO algorithm
-		//		(see http://www.python.org/download/releases/2.3/mro/ for more
+		//		(see https://www.python.org/download/releases/2.3/mro/ for more
 		//		details).
 		//
 		//		"className" is cached in "declaredClass" property of the new class,

@@ -4,13 +4,13 @@
  * Reference implementation of the OpenAjax Hub, as specified by OpenAjax Alliance.
  * Specification is under development at:
  *
- *   http://www.openajax.org/member/wiki/OpenAjax_Hub_Specification
+ *   https://www.openajax.org/member/wiki/OpenAjax_Hub_Specification
  *
  * Copyright 2006-2007 OpenAjax Alliance
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0 . Unless
+ * of the License at https://www.apache.org/licenses/LICENSE-2.0 . Unless
  * required by applicable law or agreed to in writing, software distributed
  * under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
  * CONDITIONS OF ANY KIND, either express or implied. See the License for the
@@ -22,7 +22,7 @@
 if(!window["OpenAjax"]){
 	OpenAjax = new function(){
 		// summary: the OpenAjax hub
-		// description: see http://www.openajax.org/member/wiki/OpenAjax_Hub_Specification
+		// description: see https://www.openajax.org/member/wiki/OpenAjax_Hub_Specification
 
 		var t = true;
 		var f = false;
@@ -32,7 +32,7 @@ if(!window["OpenAjax"]){
 
 		var h = {};
 		this.hub = h;
-		h.implementer = "http://openajax.org";
+		h.implementer = "https://openajax.org";
 		h.implVersion = "0.6";
 		h.specVersion = "0.6";
 		h.implExtraData = {};
@@ -178,7 +178,7 @@ if(!window["OpenAjax"]){
 			for (var lib in OpenAjax.hub.libraries) {
 				delete OpenAjax.hub.libraries[lib];
 			}
-			OpenAjax.hub.registerLibrary("OpenAjax", "http://openajax.org/hub", "0.6", {});
+			OpenAjax.hub.registerLibrary("OpenAjax", "https://openajax.org/hub", "0.6", {});
 
 			delete OpenAjax._subscriptions;
 			OpenAjax._subscriptions = {c:{},s:[]};
@@ -189,6 +189,6 @@ if(!window["OpenAjax"]){
 		}
 	};
 	// Register the OpenAjax Hub itself as a library.
-	OpenAjax.hub.registerLibrary("OpenAjax", "http://openajax.org/hub", "0.6", {});
+	OpenAjax.hub.registerLibrary("OpenAjax", "https://openajax.org/hub", "0.6", {});
 
 }

@@ -135,7 +135,7 @@ if(dojo.isIE){
 				_destroyDoc = doc;
 			}
 			_destroyContainer.appendChild(node.parentNode ? node.parentNode.removeChild(node) : node);
-			// NOTE: see http://trac.dojotoolkit.org/ticket/2931. This may be a bug and not a feature
+			// NOTE: see https://trac.dojotoolkit.org/ticket/2931. This may be a bug and not a feature
 			_destroyContainer.innerHTML = "";
 		}catch(e){
 			/* squelch */
@@ -1218,7 +1218,7 @@ if(dojo.isIE){
 	// Element attribute Functions
 	// =============================
 
-	// dojo.attr() should conform to http://www.w3.org/TR/DOM-Level-2-Core/
+	// dojo.attr() should conform to https://www.w3.org/TR/DOM-Level-2-Core/
 
 	var _propNames = {
 			// properties renamed to avoid clashes with reserved words
