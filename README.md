@@ -1,3 +1,5 @@
+# scripted-alpha is no longer actively maintained by VMware, Inc.
+
 # Welcome to Scripted
 
 ## What is Scripted?
